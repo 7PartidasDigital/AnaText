@@ -7,4 +7,5 @@ Los participantes deben descargar el repositorio completo. Al hacerlo se creará
 
 En el [Taller Digital](https://tallerdigital.uned.es/cursos/login/index.php) encontrarán todas las explicaciones. Aquí solo tendrán los scripts y los datos necesarios para trabajar y seguir el curso.
 
+Los ficheros de datos y scripts están en UTF-8.
 
