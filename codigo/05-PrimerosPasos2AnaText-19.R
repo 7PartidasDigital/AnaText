@@ -21,6 +21,8 @@
 library(tidyverse)
 library(tidytext)
 ficheros <- list.files(path = "datos/mensajes", pattern = "*.txt")
+# Usar la siguiente si tengo todo el corpus
+ficheros <- ficheros[33:76]
 anno <- gsub("\\.txt", "", ficheros, perl = T)
 mensajes <- data_frame(anno = character(),
                        parrafo = numeric(),

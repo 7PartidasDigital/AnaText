@@ -23,6 +23,8 @@ library(tidytext)
 
 # Ahora cargará todos los ficheros de los mensajes
 ficheros <- list.files(path ="datos/mensajes", pattern = "\\d+")
+# Solo con el corpus completo
+ficheros <- ficheros[33:76]
 anno <- gsub("\\.txt", "", ficheros, perl = T)
 mensajes <- data_frame(anno = character(), parrafo = numeric(), texto = character())
 for (i in 1:length(ficheros)){
