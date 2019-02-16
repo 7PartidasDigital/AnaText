@@ -16,7 +16,7 @@
 # Establece el directorio. No lo olvides.
 # Tiene que ser la carpeta AnaText
 
-# Carga las librerías.
+# Carga las librerías
 library(tidyverse)
 library(tidytext)
 
