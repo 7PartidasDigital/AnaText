@@ -16,13 +16,13 @@
 
 # Establece el directorio. No lo olvides.
 # Tiene que ser la carpeta AnaText
-
+setwd("~/Desktop/AnaText")
 discurso <- readLines("datos/mensajes/1975.txt")
 
-install.packages("tidyverse", "tidytext")  # Solo la primera vez que uses este script
+install.packages(c("tidyverse", "tidytext"))  # Solo la primera vez que uses este script
 library(tidyverse)
 library(tidytext) 
-mensaje <- data_frame(parrafo = seq_along(discurso), texto = discurso)
+mensaje <- tibble(parrafo = seq_along(discurso), texto = discurso)
 mensaje_palabras <- mensaje %>%
   unnest_tokens(palabra, texto)
 mensaje %>%
