@@ -23,6 +23,7 @@ library(tidytext)
 # Descarga los modelos y los guarda en el directorio de trabajo
 # Una vez descargados, no hace falta volver a descargarlos.
 udpipe_download_model(language = "spanish-ancora")
+udpipe_download_model(language = "spanish-gsd")
 # Se pueden cargar los dos modelos, o tan solo uno
 # Ancora
 modelo_ancora <- udpipe_load_model(file = 'spanish-ancora-ud-2.3-181115.udpipe')
