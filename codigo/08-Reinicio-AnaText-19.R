@@ -37,7 +37,7 @@ for (i in 1:length(ficheros)){
 }
 mensajes$rey <- factor(mensajes$rey, levels = c("Juan Carlos I", "Felipe VI"))
 mensajes$anno <- factor(mensajes$anno)
-vacias <- as_tibble(read.delim("https://raw.githubusercontent.com/7PartidasDigital/AnaText/master/datos/vacias.txt",
+vacias <- as_tibble(read.delim("https://raw.githubusercontent.com/7PartidasDigital/AnaText/master/datos/diccionarios/vacias.txt",
                                header= TRUE,
                                quote = '"',
                                encoding = "UTF-8",
