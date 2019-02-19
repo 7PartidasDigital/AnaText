@@ -23,13 +23,12 @@ library(tidytext)
 
 # Ahora cargará todos los ficheros de los mensajes
 ficheros <- list.files(path ="datos/mensajes", pattern = "\\d+")
-# Solo con el corpus completo
-ficheros <- ficheros[33:76]
+# Solo con el corpus completo ficheros <- ficheros[33:76]
 anno <- gsub("\\.txt", "", ficheros, perl = T)
-mensajes <- data_frame(anno = character(), parrafo = numeric(), texto = character())
+mensajes <- tibble(anno = character(), parrafo = numeric(), texto = character())
 for (i in 1:length(ficheros)){
   discurso <- readLines(paste("datos/mensajes", ficheros[i], sep = "/"))
-  temporal <- data_frame(anno = anno[i], parrafo = seq_along(discurso), texto = discurso)
+  temporal <- tibble(anno = anno[i], parrafo = seq_along(discurso), texto = discurso)
   mensajes <- bind_rows(mensajes, temporal)
 }
 
@@ -81,14 +80,14 @@ mensajes_vaciado %>%
 
 
 # Un inciso: Emilia Pardo Bazán
-pazos <- data_frame(texto = read_lines("https://raw.githubusercontent.com/7PartidasDigital/AnaText/master/datos/pazos_ulloa.txt",
+pazos <- tibble(texto = read_lines("https://raw.githubusercontent.com/7PartidasDigital/AnaText/master/datos/pazos_ulloa.txt",
                                        locale = default_locale(),
                                        skip = 3))
 
 pazos_palabras <- pazos %>%
   unnest_tokens(palabra, texto) %>%
     anti_join(vacias)
-vacias_adhoc <- data_frame(palabra = c("gabriel", "julián",
+vacias_adhoc <- tibble(palabra = c("gabriel", "julián",
                                        "nucha", "marqués",
                                        "perucho", "pedro",
                                        "ulloa", "don"))

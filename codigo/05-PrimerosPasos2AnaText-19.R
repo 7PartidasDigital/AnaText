@@ -21,15 +21,14 @@
 library(tidyverse)
 library(tidytext)
 ficheros <- list.files(path = "datos/mensajes", pattern = "*.txt")
-# Usar la siguiente si tengo todo el corpus
-ficheros <- ficheros[33:76]
+# Usar la siguiente si tengo todo el corpus ficheros <- ficheros[33:76]
 anno <- gsub("\\.txt", "", ficheros, perl = T)
-mensajes <- data_frame(anno = character(),
+mensajes <- tibble(anno = character(),
                        parrafo = numeric(),
                        texto = character())
 for (i in 1:length(ficheros)){
   discurso <- readLines(paste("datos/mensajes", ficheros[i], sep = "/"))
-  temporal <- data_frame(anno = anno[i], parrafo = seq_along(discurso), texto = discurso)
+  temporal <- tibble(anno = anno[i], parrafo = seq_along(discurso), texto = discurso)
   mensajes <- bind_rows(mensajes, temporal)
 }
 mensajes_palabras <- mensajes %>%

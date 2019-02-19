@@ -21,7 +21,7 @@ library(tidytext)
 ficheros <- list.files(path ="datos/mensajes", pattern = "\\d+")
 anno <- as.character(c(1975:2018))
 rey <- c(rep("Juan Carlos I", 39),rep("Felipe VI", 5))
-mensajes <- data_frame(anno = character(),
+mensajes <- tibble(anno = character(),
                        rey = character(),
                        parrafo = numeric(),
                        texto = character())
@@ -29,7 +29,7 @@ for (i in 1:length(ficheros)){
   discurso <- readLines(paste("datos/mensajes",
                               ficheros[i],
                               sep = "/"))
-  temporal <- data_frame(anno = anno[i],
+  temporal <- tibble(anno = anno[i],
                        rey = rey[i],
                        parrafo = seq_along(discurso),
                        texto = discurso)

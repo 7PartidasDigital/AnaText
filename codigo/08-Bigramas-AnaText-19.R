@@ -29,7 +29,7 @@ library(tidytext)
 ficheros <- list.files(path ="datos/mensajes", pattern = "\\d+")
 anno <- as.character(c(1975:2018))
 rey <- c(rep("Juan Carlos I", 39),rep("Felipe VI", 5))
-mensajes <- data_frame(anno = character(),
+mensajes <- tibble(anno = character(),
                        rey = character(),
                        parrafo = numeric(),
                        texto = character())
@@ -37,7 +37,7 @@ for (i in 1:length(ficheros)){
   discurso <- readLines(paste("datos/mensajes",
                               ficheros[i],
                               sep = "/"))
-  temporal <- data_frame(anno = anno[i],
+  temporal <- tibble(anno = anno[i],
                          rey = rey[i],
                          parrafo = seq_along(discurso),
                          texto = discurso)
@@ -63,7 +63,7 @@ mensajes %>%
   unnest_tokens(bigrama,
                 texto,
                 token = "ngrams",
-                n = 3)
+                n = 2)
 
 mensajes_bigramas <- mensajes %>%
   unnest_tokens(bigrama, texto, token = "ngrams", n = 2)
@@ -75,6 +75,8 @@ bigramas_separados <- mensajes_bigramas %>%
   separate(bigrama,
            c("palabra1", "palabra2"),
            sep = " ") 
+
+bigramas_separados
 
 bigramas_filtrados <- bigramas_separados %>%
   filter(!palabra1 %in% vacias$palabra,
@@ -91,6 +93,8 @@ bigramas_filtrados <- bigramas_filtrados %>%
 bigramas_unidos <- bigramas_filtrados %>%
   unite(bigrama, palabra1, palabra2, sep = " ")
 
+bigramas_unidos %>%
+  count(rey, bigrama, sort = T)
 
 bigramas_unidos %>%
   count(rey, bigrama, sort = T) %>%
@@ -119,17 +123,14 @@ grafo_bigramas <- recuento_bigramas %>%
 
 grafo_bigramas
 
-
-
-
 ggraph(grafo_bigramas, layout = "nicely") +
   geom_edge_link() +
   geom_node_point() +
   geom_node_text(aes(label = name), vjust = 1, hjust = 1)
 
-#set.seed(2016)
+set.seed(2016)
 
-ggraph(grafo_bigramas, layout = "fr") +
+ggraph(grafo_bigramas, layout = "nicely") +
   geom_edge_link(aes(edge_alpha = n),
                  show.legend = FALSE,
                  arrow = arrow(type = "closed",
@@ -142,6 +143,9 @@ ggraph(grafo_bigramas, layout = "fr") +
 
 # Correlación: Qué palabras tienden a coocurrir en los párrafos
 
+# Instala la library widyr: install.library("widyr")
+library(widyr)
+
 mensajes_rey <- mensajes %>%
   filter(rey =="Juan Carlos I") %>%
   mutate(seccion = row_number()) %>%
@@ -149,8 +153,7 @@ mensajes_rey <- mensajes %>%
   filter(!palabra %in% vacias$palabra)
 
 mensajes_rey
-# Instala la library widyr
-library(widyr)
+
 pares_palabras <- mensajes_rey %>%
   pairwise_count(palabra, seccion, sort = T)
 
@@ -170,7 +173,7 @@ palabras_correlacion %>%
   filter(item1 == "terrorismo")
 
 palabras_correlacion %>%
-  filter(item1 %in% c("mujeres", "hombres", "política", "patrimonio", "país", "trabajo")) %>%
+  filter(item1 %in% c("constitución", "terrorismo", "crisis", "libertades", "país", "trabajo")) %>%
   group_by(item1) %>%
   top_n(5) %>%
   ungroup() %>%
@@ -183,7 +186,7 @@ palabras_correlacion %>%
 palabras_correlacion %>%
   filter(correlation > .30) %>%
   graph_from_data_frame() %>%
-  ggraph(layout = "fr") +
+  ggraph(layout = "nicely") +
   geom_edge_link(aes(edge_alpha = correlation), show.legend = FALSE) +
   geom_node_point(color = "lightblue", size = 5) +
   geom_node_text(aes(label = name), repel = TRUE) +

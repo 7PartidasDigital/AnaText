@@ -35,12 +35,19 @@ analisis <- udpipe_annotate(modelo_ancora, texto)
 analisis <- as_tibble(analisis)
 
 analisis %>%
+  count(upos, sort = T)
+
+analisis %>%
   count(upos, sort = T) %>%
   mutate(upos = reorder(upos, n)) %>%
   ggplot(aes(upos, n)) +
-  geom_col() #+
+  geom_col() +
   coord_flip()
-  
+
+analisis %>%
+  filter(upos == "ADJ") %>%
+  count(token, sort = T)
+
 analisis %>%
   filter(upos == "ADJ") %>%
   count(token, sort = T) #%>%

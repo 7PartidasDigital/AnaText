@@ -24,31 +24,37 @@ library(tidytext)
 ficheros <- list.files(path ="datos/mensajes", pattern = "\\d+")
 anno <- as.character(1975:2018)
 rey <- c(rep("Juan Carlos I", 39), rep("Felipe VI", 5))
-mensajes <- data_frame(anno = character(), rey = character(), parrafo = numeric(), texto = character())
+mensajes <- tibble(anno = character(),
+                   rey = character(),
+                   parrafo = numeric(),
+                   texto = character())
 
-# Si eres usuario de Windows, pasa de esto
 for (i in 1:length(ficheros)){
   discurso <- read_lines(paste("datos/mensajes", ficheros[i], sep = "/"))
   discurso <- gsub("[-–—]", " – ", discurso)
   discurso <- gsub(" ([\\.,;:])", "\\1", discurso)
   discurso <- gsub("  ", " ", discurso)
   discurso <- gsub("^ ", "", discurso)
-  temporal <- data_frame(anno = anno[i], rey = rey[i], parrafo = seq_along(discurso), texto = discurso)
+  temporal <- tibble(anno = anno[i],
+                     rey = rey[i],
+                     parrafo = seq_along(discurso),
+                     texto = discurso)
   mensajes <- bind_rows(mensajes, temporal)
 }
 
 # Solo para los ordenadores con Windows
 mensajes$texto <- iconv(mensajes$texto, from = "Latin1", to = "UTF-8")
 
+library(udpipe)
+
+# Carga en modelo 
+modelo_ancora <- udpipe_load_model(file = 'spanish-ancora-ud-2.3-181115.udpipe')
+
 AnnoMensaje <- anno
 ReyMensaje <- rey
 #
-library(udpipe)
-# Carga en modelo 
-Modelo_ancora <- udpipe_load_model(file = 'spanish-ancora-ud-2.3-181115.udpipe')
 
-
-Mensajes_Analizado <- data_frame(parrafo_id = integer(),
+Mensajes_Analizado <- tibble(parrafo_id = integer(),
                                  enunciado_id = integer(),
                                  enunciado = character(),
                                  token_id = character(),
@@ -64,7 +70,7 @@ for(i in 1:length(AnnoMensaje)){
   temporal <- mensajes %>%
     filter(anno == AnnoMensaje[i]) %>%
     select(texto)
-  analisis <- as_tibble(udpipe_annotate(Modelo_ancora,
+  analisis <- as_tibble(udpipe_annotate(modelo_ancora,
                                         temporal$texto))
   analisis <- analisis %>%
     add_column(anno = AnnoMensaje[i],
@@ -94,6 +100,16 @@ Mensajes_Analizado %>%
   ggplot(aes(upos, n)) +
   geom_col(fill = "darkgreen") +
   coord_flip()
+
+clases <- Mensajes_Analizado %>%
+  group_by(rey) %>%
+  drop_na(upos) %>%
+  count(upos)
+
+ggplot(clases, aes(upos, n)) +
+  geom_col() +
+  coord_flip() +
+  facet_wrap(~rey)
 
 clases <- Mensajes_Analizado %>%
   group_by(rey) %>%

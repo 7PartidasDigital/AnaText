@@ -24,7 +24,7 @@ anno <- gsub("\\.txt", "", ficheros, perl = T)
 JCI <- rep("Juan Carlos I", 39)
 FVI <- rep("Felipe VI", 5)
 rey <- c(JCI, FVI)
-mensajes <- data_frame(anno = character(),
+mensajes <- tibble(anno = character(),
                        rey = character(),
                        parrafo = numeric(),
                        texto = character())
@@ -32,7 +32,7 @@ for (i in 1:length(ficheros)){
   discurso <- readLines(paste("datos/mensajes",
                               ficheros[i],
                               sep = "/"))
-  temporal <- data_frame(anno = anno[i],
+  temporal <- tibble(anno = anno[i],
                          rey = rey[i],
                          parrafo = seq_along(discurso),
                          texto = discurso)
@@ -74,7 +74,7 @@ JCI_porcentaje <- JCI_palabras %>%
 reyes_frecuencias <- FVI_porcentaje %>%
   left_join(JCI_porcentaje, by = "palabra")
 
-install.packager("scales") # Solo la primera vez
+install.packages("scales") # Solo la primera vez
 library(scales)
 ggplot(reyes_frecuencias,
        aes(x = Felipe, y = JuanCarlos,
