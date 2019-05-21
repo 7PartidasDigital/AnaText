@@ -1,34 +1,35 @@
-
-
-
-
-    
-        
-            
-                Nativa
-                Eduardo Acevedo Díaz
-            
-            
-                
-            
-            
-                No hay declaración de publicación disponible
-            
-            
-                Codificación TEI básica por medio de OxGarage desde fichero RTF del ePub correspondiente convertido por medio de Calibre.
-            
-        
-        
-            
-                
-            
-        
-    
-    
-        
-            
-                I
-                Tiempos viejos Allá por los años de 1821 a 1824, cuando la nacionalidad oriental
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nativa</title>
+                <author>Eduardo Acevedo Díaz</author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date/></edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>No hay declaración de publicación disponible</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Codificación TEI básica por medio de OxGarage desde fichero RTF del ePub correspondiente convertido por medio de Calibre.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change><name/><date/></change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="capitulo">
+                <head>I</head>
+                <p>Tiempos viejos Allá por los años de 1821 a 1824, cuando la nacionalidad oriental
                     aparecía aún incolora casi atrofiada al nacer por rudísimos golpes capaces de
                     producir la parálisis o por lo menos la anemia que se sucede siempre a la
                     postración y al prolongado delirio, –la libertad de la palabra escrita no
@@ -511,11 +512,11 @@
                     forma definitiva de gobierno las instituciones libres; –no para desconocerlas y
                     deshonrarlas– sino para trasmitirlas a la prole nutrida con sangre de valientes
                     y sudores de martirio, a fin de que ella las llevase sin cobardías ni
-                    vacilaciones hasta sus últimas consecuencias.
-            
-            
-                II
-                El medio–ambiente ¡Buenos tiempos aquellos en que la ciudad de San Felipe no era
+                    vacilaciones hasta sus últimas consecuencias.</p>
+            </div>
+            <div type="capitulo">
+                <head>II</head>
+                <p>El medio–ambiente ¡Buenos tiempos aquellos en que la ciudad de San Felipe no era
                     más que un hacinamiento confuso de casas bajas sin revoque, con techos de teja,
                     distribuidas y alineadas en calles muy estrechas sin solado firme llenas de
                     lodo, alumbradas con velas de sebo en faroles de pescante, con plazas en que
@@ -655,11 +656,11 @@
                     a sufrir aquellos que a vegetar en una atmósfera, viciada, tolerando en silencio
                     actos depresivos de gobierno y miserias de cortesanos. ¡Siempre se respiraba en
                     los campos un aire puro, y la pluma de ñandú se agitaba al soplo del pampero en
-                    la cabeza de los caciques!
-            
-            
-                III
-                Los tres ombúes Denominábase así una estancia situada sobre la margen del río
+                    la cabeza de los caciques!</p>
+            </div>
+            <div type="capitulo">
+                <head>III</head>
+                <p>Los tres ombúes Denominábase así una estancia situada sobre la margen del río
                     Santa Lucía, hacia sus primeros afluentes; considerada entonces por sus
                     numerosos ganados vacuno y yeguarizo como uno de los mejores establecimientos de
                     campo. Pertenecía al hacendado don Luciano Robledo, criollo opulento y bien
@@ -1062,11 +1063,11 @@
                     con la mano un saludo picaresco. Don Anacleto llevó por detrás con el dorso la
                     mano al sombrero –que hizo deslizar hasta la nariz, y mientras se lo volvía a
                     encasquetar muy grave, murmuró con sorna: –¡Corazón ladino! Jugándose con el
-                    paisano viejo… ¡Cómo si no supiera yo con qué pican las avispas!…
-            
-            
-                IV
-                Secretos del monte Ya en la mesa, don Luciano Robledo se impuso de lo ocurrido,
+                    paisano viejo… ¡Cómo si no supiera yo con qué pican las avispas!…</p>
+            </div>
+            <div type="capitulo">
+                <head>IV</head>
+                <p>Secretos del monte Ya en la mesa, don Luciano Robledo se impuso de lo ocurrido,
                     contado en un estilo pintoresco por Dora. Era el hacendado un hombre manso, de
                     rostro ancho y tostado, nariz de ventanas muy abiertas, barba cenicienta, bajo
                     de estatura y abdomen pronunciado; siempre con sus piernas cortas embutidas en
@@ -1488,11 +1489,11 @@
                     bien abrochado y una media charretera en el hombro, –contestó Dora con un gesto
                     de despecho. Está en Santa Lucía de guarnición. Pero, no se trata de ese…
                     Guadalupe interrumpió aquí el diálogo con su presencia, para advertir a las
-                    jóvenes que era hora de comer.
-            
-            
-                V
-                Los cuentos de Don Anacleto La comida fue breve, y contra su costumbre, don
+                    jóvenes que era hora de comer.</p>
+            </div>
+            <div type="capitulo">
+                <head>V</head>
+                <p>Los cuentos de Don Anacleto La comida fue breve, y contra su costumbre, don
                     Luciano se mostró grave, y las jóvenes taciturnas. Poco de nuevo se habló sobre
                     el episodio del día. Presentábase muy hermosa la noche. Las hermanas se pasearon
                     juntas largo rato en el patio, hasta sentirse fatigadas. Entonces sacaron del
@@ -1764,11 +1765,11 @@
                     con los ojos puestos en el techo y los labios fruncidos, a la vez que con un
                     reflejo de raro alborozo en el semblante, lo hacía sentada en la piel de
                     yaguareté, cruzadas las manos por delante de las rodillas –en infantil columpio
-                    el gentil cuerpo como si por él corriese azogue.
-            
-            
-                VI
-                Las nuevas de Guadalupe Muy avanzado ya el día siguiente, brillando en espacios
+                    el gentil cuerpo como si por él corriese azogue.</p>
+            </div>
+            <div type="capitulo">
+                <head>VI</head>
+                <p>Las nuevas de Guadalupe Muy avanzado ya el día siguiente, brillando en espacios
                     límpidos un sol abrasador, don Anacleto pudo observar que el rancho viejo se
                     había transformado como por encanto; lo que hubo de llenarlo de asombro, pues si
                     bien él había salido al campo desde antes de amanecer, y en el espacio de tiempo
@@ -2010,11 +2011,11 @@
                     flores, sin duda recién arrancadas y esparcidas luego sobre ellos. De todo formó
                     un pequeño lío, y pasóselo callada a Guadalupe. Recibiólo la negra con una
                     sonrisa, y fuese veloz moviendo la cabeza. Cuando Nata alzó la vista, notó que
-                    su hermana la observaba risueña a su vez, y bastante encendida.
-            
-            
-                VII
-                Al caer la tarde Durante algunos días nada de extraordinario ocurrió en «Tres
+                    su hermana la observaba risueña a su vez, y bastante encendida.</p>
+            </div>
+            <div type="capitulo">
+                <head>VII</head>
+                <p>Al caer la tarde Durante algunos días nada de extraordinario ocurrió en «Tres
                     Ombués», siguiendo las cosas en un estado análogo a lo descripto. Socorrióse a
                     los huéspedes con el celo que al principio; el herido entraba en convalecencia y
                     hacía sus pequeños paseos por la tarde frente a su vivienda; y sus dos
@@ -2289,11 +2290,11 @@
                     es?» «¿De dónde viene?». Tenemos nosotros que decirlo, antes de proseguir el
                     relato. Luis María tenía su odisea interesante, y por lo mismo digna de que la
                     narremos desde su origen. En su corta historia, solo había ensueños e
-                    infortunios, –patrimonio de los héroes ignorados.
-            
-            
-                VIII
-                Hogar de antaño Algunos años antes de que se fundase la escuela gratuita
+                    infortunios, –patrimonio de los héroes ignorados.</p>
+            </div>
+            <div type="capitulo">
+                <head>VIII</head>
+                <p>Hogar de antaño Algunos años antes de que se fundase la escuela gratuita
                     establecida en el Fuerte, bajo los auspicios de la sociedad lancasteriana, y
                     cuando aún primaba en materia de educación el viejo sistema conventual, Luís
                     María oía en San Francisco, sentado cinco horas al día en dura banqueta o
@@ -2622,11 +2623,11 @@
                     número. Entre los cálculos pues, del talento y la diplomacia, y las suspicacias
                     de la astucia apoyada por las proezas del músculo, oscilaba la suerte de la
                     cisplatina; y era el tiempo el que debería poner en evidencia si la razón estaba
-                    o no de parte de los humildes, y sí «los últimos serían los primeros».
-            
-            
-                IX
-                En pos de la aventura Tal era el medio–ambiente en la reducida sociedad de su
+                    o no de parte de los humildes, y sí «los últimos serían los primeros».</p>
+            </div>
+            <div type="capitulo">
+                <head>IX</head>
+                <p>En pos de la aventura Tal era el medio–ambiente en la reducida sociedad de su
                     país, cuando Luis María, formada ya su conciencia de hombre, y trabajado por las
                     insinuaciones y ruegos de su madre, propúsose modificar en parte sus hábitos de
                     vida dándose a sí mismo una libertad que nunca había gozado. Empezó a frecuentar
@@ -3123,11 +3124,11 @@
                     sierra. En los bajos hay muchos pajonales donde se meten los «matreros» sin que
                     naide pueda dar con la guarida. –Eso nos conviene. ¡En marcha! Los dos jinetes
                     se dirigieron al camino al galope, perdiéndose bien pronto de vista detrás de
-                    las ondulaciones del terreno.
-            
-            
-                X
-                Rulos y nazarenas El joven voluntario no tenía la práctica constante de los
+                    las ondulaciones del terreno.</p>
+            </div>
+            <div type="capitulo">
+                <head>X</head>
+                <p>Rulos y nazarenas El joven voluntario no tenía la práctica constante de los
                     hombres camperos, y desde luego sus recursos ingeniosos para sobrellevar con
                     paciencia los azares y amarguras de la vida de sacrificios. Las horas se hacen
                     tardías y las jornadas abrumadoras, cuando la actividad se ejercita en campo
@@ -3496,11 +3497,11 @@
                     su colocación junto a otros dos ayudantes. El baqueano, que se encontraba
                     algunas varas a vanguardia rompió la marcha, y en pos se movió la columna, en
                     momentos que la lluvia arreciando caía a plomo como una cascada ruidosa y
-                    espumante.
-            
-            
-                XI
-                Cuaró La fuerza, efectuando lentamente una contramarcha de flanco, tomó rumbos
+                    espumante.</p>
+            </div>
+            <div type="capitulo">
+                <head>XI</head>
+                <p>Cuaró La fuerza, efectuando lentamente una contramarcha de flanco, tomó rumbos
                     hacia el litoral del Cabo. La jornada prometía ser muy dura, al trote largo,
                     mientras no se encontrasen escabrosidades al frente. Sólo obstáculos naturales o
                     imprevistos obligaban a moderar el paso: ya un terreno pedregoso cuyos riscos
@@ -3923,11 +3924,11 @@
                     tostada piel cinco heridas de lanza y sable. Tal era el origen, y esa, la breve
                     historia de Cuaró. Luis María, a pesar de su sueño profundo, lo vio vagar en su
                     fantasía excitada; pero al despertar, no lo sintió ya a su lado. El clarín
-                    tocaba diana.
-            
-            
-                XII
-                Prole del pampero Salía Luis María de su «ranchejo» todo mojado y entumecido, con
+                    tocaba diana.</p>
+            </div>
+            <div type="capitulo">
+                <head>XII</head>
+                <p>Prole del pampero Salía Luis María de su «ranchejo» todo mojado y entumecido, con
                     dolores recios en piernas y brazos, cuando Esteban presentósele delante trayendo
                     los caballos del diestro. Listo estaba ya el suyo, con su carguío
                     correspondiente, y venía a aderezar el de su amo. A pocos pasos ardía un buen
@@ -4439,11 +4440,11 @@
                     cimientos, a la vez que orea las tierras feraces, arrastra lo inútil y estéril
                     en torbellinos y lleva semillas y gérmenes fecundantes en sus alas poderosas,
                     –sin que nadie pueda decir en qué sitio se aligerará de la carga, ni en qué
-                    límite ha de dar por concluida su formidable carrera.
-            
-            
-                XIII
-                De la cuchilla al monte Momentos antes de emprender marcha la milicia
+                    límite ha de dar por concluida su formidable carrera.</p>
+            </div>
+            <div type="capitulo">
+                <head>XIII</head>
+                <p>De la cuchilla al monte Momentos antes de emprender marcha la milicia
                     revolucionaria, Cuaró preguntó a Luis María con su acento suave y tranquilo:
                     –¿Porqué gritaste «no matar»? Referíase al episodio de Souza. –Ahí verá,
                     teniente: porque fui yo quien lo hirió, y tenía gusto de que nadie tocase a mi
@@ -4664,11 +4665,11 @@
                     ignorado, –siempre en movimiento, robándose horas al sueño y satisfacciones al
                     apetito en una lucha constante con los hombres y las fuerzas ciegas de la
                     naturaleza. ¡A todo esto obligaban los tiempos a los patriotas, y preciso era
-                    resignarse!
-            
-            
-                XIV
-                Vida cimarrona En esos años ingratos, los conquistadores se complacían en
+                    resignarse!</p>
+            </div>
+            <div type="capitulo">
+                <head>XIV</head>
+                <p>Vida cimarrona En esos años ingratos, los conquistadores se complacían en
                     justificar ese título pesando sobre el país de una manera despiadada, a pesar de
                     las declaraciones honestas y liberales en la forma, del Barón de la Laguna.
                     Decirse puede con rigorosa verdad, que muy pocas invasiones llevaron tan
@@ -5169,11 +5170,11 @@
                     salió de la picada, avanzaba ya el sol a su ocaso. El valle, las lomas, el monte
                     en todas las lejanas perspectivas que la vista dominaba, aparecían desiertos.
                     Arrimó entonces espuelas, y galopó a lo largo de la costa hacia su rancho
-                    solitario.
-            
-            
-                XV
-                La mujer del matrero Ese día, más que otras veces, se encontró mayor tiempo sola
+                    solitario.</p>
+            </div>
+            <div type="capitulo">
+                <head>XV</head>
+                <p>La mujer del matrero Ese día, más que otras veces, se encontró mayor tiempo sola
                     en el rancho Mercedes. Por aquellos lugares solitarios raro era el transeúnte
                     que al galope de su caballo interrumpía la monotonía salvaje hiriendo los aires
                     con el ruido de los cascos o con los ecos de una canción criolla. Caía el sol
@@ -5349,11 +5350,11 @@
                     dolor. Cuando ya entraban por una «picada» estrecha al monte lleno de rumores,
                     volvióse preguntando: –¿Trujiste el caldero? –Aquí viene, –contestó Mercedes con
                     un suspiro. Volvieron a besarse, siempre de lado, y callados se perdieron en las
-                    tinieblas.
-            
-            
-                XVI
-                De monte en monte Al final de aquella «picada», que no era otra que la del
+                    tinieblas.</p>
+            </div>
+            <div type="capitulo">
+                <head>XVI</head>
+                <p>De monte en monte Al final de aquella «picada», que no era otra que la del
                     «potrero» en que acampaban Luis María y sus camaradas de fogón, Cuaró vigilante,
                     recibió a Ladislao y Mercedes. Apeáronse éstos para encaminarse por las
                     tortuosidades del sendero oblicuo, llevando el caballo del cabestro, después de
@@ -5688,11 +5689,11 @@
                     ferocidad del «yaguareté». Listos ya para partir, y en posesión Mercedes de un
                     bayo regularmente enjaezado, la cabalgata rompió la marcha costeando el arroyo
                     de a dos en fondo, y formando Esteban la retaguardia con su tercerola en la
-                    diestra.
-            
-            
-                XVII
-                Azucenas silvestres Los montes de Santa Lucía, cerca de las cabeceras del río,
+                    diestra.</p>
+            </div>
+            <div type="capitulo">
+                <head>XVII</head>
+                <p>Azucenas silvestres Los montes de Santa Lucía, cerca de las cabeceras del río,
                     formaban en aquellos tiempos una intrincada selva no sólo por la espesa
                     vegetación arbórea que cubría totalmente sus bordes, sino también por la de los
                     arroyos que iban a desaguar en su cuenca. Hacia su ensanche y libre curso los
@@ -5919,11 +5920,11 @@
                     Instruido pues, a este respecto, sobre el origen de Berón y las causas que
                     motivaban su presencia en el pago, pasamos a reanudar aquí el relato
                     interrumpido, desde la tarde aquella en que Luis María se aproximó por vez
-                    primera a la estancia de los «Tres Ombúes».
-            
-            
-                XVIII
-                El nido de torcaz En la noche de ese día, Berón no durmió muy tranquilo, sin que
+                    primera a la estancia de los «Tres Ombúes».</p>
+            </div>
+            <div type="capitulo">
+                <head>XVIII</head>
+                <p>El nido de torcaz En la noche de ese día, Berón no durmió muy tranquilo, sin que
                     ese desasosiego fuese ocasionado por los efectos de una herida ya cicatrizada;
                     ni por la zozobra e incertidumbre en que mantenían su espíritu patriótico los
                     sucesos del país, cuyo verdadero sesgo ignoraba a pesar de todas sus
@@ -6186,11 +6187,11 @@
                     cabalgata; pero, otras tantas desistió, agraviado consigo mismo, y por último
                     encaminóse a su alojamiento. No estaba lejos el boquete que bien conocía, y por
                     él se entró echado sobre el cuello del alazán paso ante paso, a su selva oscura.
-               
-            
-            
-                XIX
-                Una carga en dispersión Dos días después de este episodio y al rayar del último,
+               </p>
+            </div>
+            <div type="capitulo">
+                <head>XIX</head>
+                <p>Una carga en dispersión Dos días después de este episodio y al rayar del último,
                     sentados se encontraban junto a un fogón Cuaró, Esteban y uno de los dos «tapes»
                     que vivían como agregados al vivac; y al rededor de otro, algo más lejos,
                     –encendido al lado de un segundo alojamiento–, Ladislao, Mercedes y la mujer del
@@ -6513,11 +6514,11 @@
                     capataz, Esteban y Ladislao que conducían en cruz sobre dos caballos a Luis
                     María Berón. Diez o doce muertos veíanse esparcidos acá y allá en el terreno; y
                     por los campos, grandes trozos de ganado, todavía inquieto y receloso, que al
-                    menor movimiento emprendía precipitada fuga.
-            
-            
-                XX
-                Heridas de sable y flecha Todo aquello fue obra de pocos momentos, al punto que
+                    menor movimiento emprendía precipitada fuga.</p>
+            </div>
+            <div type="capitulo">
+                <head>XX</head>
+                <p>Heridas de sable y flecha Todo aquello fue obra de pocos momentos, al punto que
                     don Luciano y el capataz apartados algunos metros apenas del teatro de la
                     refriega, no tuvieron tiempo de asumir una actitud resuelta cualquiera viéndose
                     en el caso duro de permanecer inmóviles hasta tanto pasara la avalancha que los
@@ -6897,11 +6898,11 @@
                     luego se fue, sin hacer ruido. Sola ya, Dora que estaba despierta, lanzó un
                     sollozo llevándose las dos manos al semblante, y gruesas lágrimas saltaron por
                     entre sus dedos…. Gracias a ese lloro, cedió en parte el rigor de su afección.
-               
-            
-            
-                XXI
-                El remanso Cuando Nata regresó horas después, encontróla llena de buen humor,
+               </p>
+            </div>
+            <div type="capitulo">
+                <head>XXI</head>
+                <p>El remanso Cuando Nata regresó horas después, encontróla llena de buen humor,
                     lúcida, espiritual, dispuesta a uno de aquellos paseos a caballo que tanto la
                     deleitaban y en los que al galope violento o a la carrera desenfrenada, su
                     naturaleza excepcional parecía transformarse y adquirir una energía asombrosa,
@@ -7204,11 +7205,11 @@
                     suelo. –El «yaguá» grita en el « cagüipe» –murmuró. Encogióse el teniente de
                     hombros, y continuando la marcha, entróse en la enramada. Violos Nata penetrar
                     allí con aquel bulto inerme, y adivinando tal vez lo que ocurría, lanzó un grito
-                    agudo y corrió a ellos. El viejo Robledo siguió sus pasos desalado.
-            
-            
-                XXII
-                Sombra Atónitos quedaron largo rato hermana y padre examinando y contemplando el
+                    agudo y corrió a ellos. El viejo Robledo siguió sus pasos desalado.</p>
+            </div>
+            <div type="capitulo">
+                <head>XXII</head>
+                <p>Sombra Atónitos quedaron largo rato hermana y padre examinando y contemplando el
                     cuerpo de Dora, en la esperanza de que aún viviese, sacudiéndola, llamándola
                     tiernamente primero –luego a grito herido, arrodillados junto a ella. Cuaró y el
                     «tape» presenciaban todo silenciosos apoyados en los puntales como dos
@@ -7461,11 +7462,11 @@
                     mano. No entendió bien lo que le dijo, pues el delirio empezaba a apoderarse de
                     su cerebro; pero, bien luego sintió el rodar de un carruaje y pisadas fuertes de
                     caballos, cada vez menos perceptibles a medida que se alejaban… Era la comitiva
-                    que partía rumbo a Montevideo.
-            
-            
-                XXIII
-                Una diana Durante muchos días el paciente no ofreció mejoría sensible, sufriendo
+                    que partía rumbo a Montevideo.</p>
+            </div>
+            <div type="capitulo">
+                <head>XXIII</head>
+                <p>Una diana Durante muchos días el paciente no ofreció mejoría sensible, sufriendo
                     frecuentes ataques de fiebre. Esteban en compañía de don Anacleto y los otros
                     peones, que habían regresado a las poblaciones al día siguiente de la partida de
                     don Luciano, de Nata y de Guadalupe, tranquilos ya respecto a la actitud asumida
@@ -7637,8 +7638,8 @@
                     pareció conmovido, fijos sus ojos en el espectáculo. Después montó a caballo
                     murmurando bajo estas palabras, que parecían la expresión final de un soliloquio
                     profundo: –Instintos indomables y músculos de acero: de vosotros es la obra. ¡Ya
-                    empieza a amanecer!
-            
-        
-    
-
+                    empieza a amanecer!</p>
+            </div>
+        </body>
+    </text>
+</TEI>
