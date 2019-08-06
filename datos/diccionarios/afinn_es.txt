@@ -717,7 +717,6 @@
 "matar"	-3
 "materia"	1
 "matón"	-2
-"mayor"	3
 "medalla"	3
 "mediocridad"	-3
 "meditativo"	1

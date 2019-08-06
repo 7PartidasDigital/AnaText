@@ -3414,7 +3414,6 @@
 "gemido"	-0.8
 "gemir"	-0.25
 "generación"	0.4
-"general"	0.4
 "generosamente"	1
 "generosidad"	0.5
 "generoso"	0.75
@@ -4834,7 +4833,6 @@
 "matrimonio"	0.6
 "matriz"	0.25
 "matrona"	0.1
-"mayor"	0.4
 "mayordomo"	0.4
 "mayoría"	0.25
 "mazmorra"	-0.5
