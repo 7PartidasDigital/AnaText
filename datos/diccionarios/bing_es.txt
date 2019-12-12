@@ -1140,7 +1140,6 @@
 "garantía"	1
 "gema"	1
 "gemido"	-1
-"general"	1
 "generosidad"	1
 "generoso"	1
 "genial"	1
@@ -1643,7 +1642,6 @@
 "matanza"	-1
 "matar"	-1
 "matón"	-1
-"mayor"	1
 "mazmorra"	-1
 "mediocre"	-1
 "mediocridad"	-1

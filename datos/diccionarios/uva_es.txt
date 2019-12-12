@@ -6081,7 +6081,6 @@
 "genealogista"	1
 "generación"	1
 "generador"	1
-"general"	1
 "generalmente"	-1
 "generativo"	1
 "genéricamente"	-1
@@ -8298,7 +8297,6 @@
 "maximización"	1
 "maximizar"	1
 "máximo"	1
-"mayor"	1
 "mayordomo"	1
 "mayoría"	1
 "mayúscula"	1
