@@ -2,7 +2,8 @@ temporada	episodio	titulo	personaje	texto
 1	1	El tiempo es el que es	CAPITÁN	¡Atacasteis antes de tiempo! ¿Por qué lo hicisteis?
 1	1	El tiempo es el que es	ALONSO	Porque vos lo ordenasteis.
 1	1	El tiempo es el que es	CAPITÁN	¿Tenéis testigos de lo que decís?
-1	1	El tiempo es el que es	ALONSO	Si los muertos pudieran hablar, los tendría. ¡Mentís!
+1	1	El tiempo es el que es	ALONSO	Si los muertos pudieran hablar, los tendría.
+1	1	El tiempo es el que es	CAPITÁN	Mentís. ¡Mentís!
 1	1	El tiempo es el que es	ALONSO	Yo nunca miento.
 1	1	El tiempo es el que es	CAPITÁN	¡Prendedle!
 1	1	El tiempo es el que es	ALONSO	¡¡Todos han muerto por vos!!! ¡¡¡Todos!!!
