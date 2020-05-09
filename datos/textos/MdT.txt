@@ -232,7 +232,7 @@ temporada	episodio	titulo	personaje	texto
 1	1	El tiempo es el que es	MAITE JOVEN	"¡Pero tío, cómo te has pasado!"
 1	1	El tiempo es el que es	JULIÁN JOVEN	"Cuidado, que está cargada."
 1	1	El tiempo es el que es	MAITE JOVEN	"¡Una foto juntos, venga! Como tuviera que estar esperando a que tú te decidieras…"
-1	1	El tiempo es el que es	 JULIÁN	"Como tuviera que estar esperando a que tú te decidieras…"
+1	1	El tiempo es el que es	JULIÁN	"Como tuviera que estar esperando a que tú te decidieras…"
 1	1	El tiempo es el que es	CAMARERO	"¿Todo bien, jefe?"
 1	1	El tiempo es el que es	JULIÁN	"Sí, todo bien. ¿Cuánto es?"
 1	1	El tiempo es el que es	CAMARERO	"¿Un cortado? Poco dinero. 80 pesetas."
