@@ -1323,7 +1323,7 @@ temporada	episodio	titulo	personaje	texto
 1	3	Cómo se reescribe el tiempo	SALVADOR	Entonces, mejor que siga dibujando.
 1	3	Cómo se reescribe el tiempo	VELÁZQUEZ	La de cuadros que me quedarán sin pintar si muero ahora… Los museos ya no serán lo mismo.
 1	3	Cómo se reescribe el tiempo	ANGUSTIAS	¿Te he dicho alguna vez que eres un ególatra?
-1	3	Cómo se reescribe el tiempo	SCHWENTEIGER	¡¡¡Silencio!!!
+1	3	Cómo se reescribe el tiempo	SCHWENSTEIGER	¡¡¡Silencio!!!
 1	3	Cómo se reescribe el tiempo	JUAN	¡No la toques!
 1	3	Cómo se reescribe el tiempo	ANGUSTIAS	Gracias, Juan. Le debo una.
 1	3	Cómo se reescribe el tiempo	SALVADOR	¿Dónde estará Spínola?
@@ -1469,7 +1469,7 @@ temporada	episodio	titulo	personaje	texto
 1	4	Una negociación a tiempo	ANGUSTIAS	Pero si les dio vacaciones hace dos días…
 1	4	Una negociación a tiempo	SALVADOR	¡Pues que vuelvan! ¡Y ahora mismo!
 1	4	Una negociación a tiempo	AMELIA	¿Qué les ocurrió a mis padres? ¿Quién fue mi marido? ¿Dónde estará mi hija? ¿Cuántas veces le he dicho que llame antes de entrar?
-1	4	Una negociación a tiempo	MADRe AMELIA	Hija, yo sólo venía a traerte estas flores… Las ha enviado el hijo de los Nadal… Su madre quiere que vayamos a comer mañana a su casa.
+1	4	Una negociación a tiempo	MADRE AMELIA	Hija, yo sólo venía a traerte estas flores… Las ha enviado el hijo de los Nadal… Su madre quiere que vayamos a comer mañana a su casa.
 1	4	Una negociación a tiempo	AMELIA	No puedo… Estoy ocupada… Ponga las flores donde quiera…
 1	4	Una negociación a tiempo	MADRE AMELIA	¿Dónde vas?
 1	4	Una negociación a tiempo	AMELIA	A la biblioteca.
@@ -3094,7 +3094,7 @@ temporada	episodio	titulo	personaje	texto
 1	7	Tiempo de veganza	ISABEL II	Pues da tres vueltas y la encontrarás.
 1	7	Tiempo de veganza	MAYORDOMO	¡¡Isabel!! ¡¡Luisa Fernanda!! ¡Ha llegado vuestra madre de París!
 1	7	Tiempo de veganza	LUISA FERNANDA	¡¡Madre!!
-1	7	Tiempo de veganza	MARIA CRISTINA	Hijas mías. Ahora sois reina, Isabel. Ahora sí, venid a mis brazos.
+1	7	Tiempo de veganza	MARÍA CRISTINA	Hijas mías. Ahora sois reina, Isabel. Ahora sí, venid a mis brazos.
 1	7	Tiempo de veganza	LEIVA	¿Los demás hombres?
 1	7	Tiempo de veganza	SECUAZ	Preparados.
 1	7	Tiempo de veganza	LEIVA	¿Los inhibidores?
@@ -3135,23 +3135,23 @@ temporada	episodio	titulo	personaje	texto
 1	7	Tiempo de veganza	AMELIA	Puerta 367. En el 2012.
 1	7	Tiempo de veganza	ERNESTO	¡Vamos, Amelia!
 1	7	Tiempo de veganza	EMILIO REDÓN	… De haber sabido de su llegada, habríamos organizado un recibimiento a la altura de una Reina.
-1	7	Tiempo de veganza	MARIA CRISTINA	Es un capricho de la niña… Desde que leyó lo del Ministerio del Tiempo, sólo quería venir aquí.
+1	7	Tiempo de veganza	MARÍA CRISTINA	Es un capricho de la niña… Desde que leyó lo del Ministerio del Tiempo, sólo quería venir aquí.
 1	7	Tiempo de veganza	EMILIO REDÓN	En cualquier caso, es un honor…
-1	7	Tiempo de veganza	MARIA CRISTINA	Métase sus zalamerías donde le quepan. Ya sabe que no soy nada partidaria de este Ministerio.
+1	7	Tiempo de veganza	MARÍA CRISTINA	Métase sus zalamerías donde le quepan. Ya sabe que no soy nada partidaria de este Ministerio.
 1	7	Tiempo de veganza	LEIVA	¿Podemos hablar en privado?
-1	7	Tiempo de veganza	MARIA CRISTINA	Isabel, quédate aquí con tu hermana y estos señor…
+1	7	Tiempo de veganza	MARÍA CRISTINA	Isabel, quédate aquí con tu hermana y estos señor…
 1	7	Tiempo de veganza	EMILIO	Emilio Redón.
-1	7	Tiempo de veganza	MARIA CRISTINA	Eso… Y con el capitán, también.
+1	7	Tiempo de veganza	MARÍA CRISTINA	Eso… Y con el capitán, también.
 1	7	Tiempo de veganza	ISABEL II	¡¡¡Bien!!! Así jugaremos a la gallinita ciega…
 1	7	Tiempo de veganza	EMILIO REDÓN	Perdón, pero…
 1	7	Tiempo de veganza	ISABEL II	¡Soy la reina y se hace lo que yo digo!.
 1	7	Tiempo de veganza	EMILIO REDÓN	Vale, vale… Como diga su majestad.
 1	7	Tiempo de veganza	LEIVA	Ha llegado a nuestro conocimiento que van a atentar contra la reina.
-1	7	Tiempo de veganza	MARIA CRISTINA	Virgen Santa, pero si es una niña… ¿Conoce la fecha de ese infame plan?
+1	7	Tiempo de veganza	MARÍA CRISTINA	Virgen Santa, pero si es una niña… ¿Conoce la fecha de ese infame plan?
 1	7	Tiempo de veganza	LEIVA	Hoy.
-1	7	Tiempo de veganza	MARIA CRISTINA	Tenemos que volver a palacio inmediatamente.
+1	7	Tiempo de veganza	MARÍA CRISTINA	Tenemos que volver a palacio inmediatamente.
 1	7	Tiempo de veganza	LEIVA	Las calles son peligrosas. Aquí estarán protegidas. Esto es una fortaleza.
-1	7	Tiempo de veganza	MARIA CRISTINA	Como usted diga…
+1	7	Tiempo de veganza	MARÍA CRISTINA	Como usted diga…
 1	7	Tiempo de veganza	LEIVA	¡Don Emilio! Hasta que abortemos el plan de esos canallas, tomo el mando de la seguridad de este Ministerio con mis hombres.
 1	7	Tiempo de veganza	EMILIO REDÓN	Por supuesto… Obedézcale en todo.
 1	7	Tiempo de veganza	CAPITÁN	Sí, señor.
@@ -3161,10 +3161,10 @@ temporada	episodio	titulo	personaje	texto
 1	7	Tiempo de veganza	EMILIO REDÓN	Sí, les indico. Entra María Cristina y sus hijas. Aquí guardamos el Libro de las Puertas en los periodos de guerra.
 1	7	Tiempo de veganza	HOMBRE 1	¿Usted se queda con ellas?
 1	7	Tiempo de veganza	EMILIO REDÓN	Por supuesto.
-1	7	Tiempo de veganza	MARIA CRISTINA	¿Y ustedes?
+1	7	Tiempo de veganza	MARÍA CRISTINA	¿Y ustedes?
 1	7	Tiempo de veganza	SECUAZ	Haremos guardia en el corredor.
 1	7	Tiempo de veganza	ISABEL II	¿Qué hacen?
-1	7	Tiempo de veganza	MARIA CRISTINA	¿Qué está pasando aquí?
+1	7	Tiempo de veganza	MARÍA CRISTINA	¿Qué está pasando aquí?
 1	7	Tiempo de veganza	MAITE	Ya se irán. Pesados…
 1	7	Tiempo de veganza	JULIÁN	¿Qué haces aquí?
 1	7	Tiempo de veganza	IRENE	La pregunta es: ¿qué haces tú aquí?
@@ -8655,7 +8655,7 @@ temporada	episodio	titulo	personaje	texto
 2	17	Óleo sobre tiempo	IRENE	Huele a queso.
 2	17	Óleo sobre tiempo	VELÁZQUEZ	También llevo queso parmesano. Por si acaso…
 2	17	Óleo sobre tiempo	IRENE	Usted primero, don Diego. 1734… Allá vamos…
-2	17	Óleo sobre tiempo	ISABEL FARNESIO,Así que de Almendralejo… Y	¿cómo han encontrado la villa después de tantos años?
+2	17	Óleo sobre tiempo	ISABEL FARNESIO	Así que de Almendralejo… Y	¿cómo han encontrado la villa después de tantos años?
 2	17	Óleo sobre tiempo	IRENE	Cambiada
 2	17	Óleo sobre tiempo	VELÁZQUEZ	Igual.
 2	17	Óleo sobre tiempo	IRENE	El principal misterio del matrimonio es unir a quienes opinan lo contrario de cualquier cosa…
@@ -9382,7 +9382,7 @@ temporada	episodio	titulo	personaje	texto
 2	18	Separadas por el tiempo	ALONSO	Parece que esa Enriqueta no es el único monstruo en esta historia.
 2	18	Separadas por el tiempo	JULIÁN	Si hay alguien dispuesto a comprar, habrá alguien dispuesto a vender. Lo que sea.
 2	18	Separadas por el tiempo	IRENE	Por lo menos sabemos que la Vampira no hizo daño a la niña… Si no, ahora no sería la mujer que he conocido. Ha debido tener unos buenos padres.
-2	18	Separadas por el tiempo	ERENESTO	Unos buenos padres que pagaron fraudulentamente por ella.
+2	18	Separadas por el tiempo	ERNESTO	Unos buenos padres que pagaron fraudulentamente por ella.
 2	18	Separadas por el tiempo	ANGUSTIAS	¡Ya tengo los datos!
 2	18	Separadas por el tiempo	SALVADOR	Tomen buena nota.
 2	18	Separadas por el tiempo	ANGUSTIAS	Aquí está la dirección de la clínica. Y aquí los datos y fotos del doctor Madrigal.
@@ -11627,7 +11627,7 @@ temporada	episodio	titulo	personaje	texto
 3	22	Con el tiempo en los talones	HITCHCOCK	Now? I’m not sure…19 Amelia hace una pausa dramática, seductora.
 3	22	Con el tiempo en los talones	AMELIA	It’s now or never, Hitch…20 Y le guiña un ojo… Amelia muestra su brazo para que Hitchcock la acompañe. El director no puede negarse.
 3	22	Con el tiempo en los talones	PACINO	Sorry, Mr. Hitchcock come conmigo… Organization…
-3	22	Con el tiempo en los talones	HITCHCOK	May be later, my dear friend…
+3	22	Con el tiempo en los talones	HITCHCOCK	May be later, my dear friend…
 3	22	Con el tiempo en los talones	PACINO	No… Ahora… Vamos… Now…
 3	22	Con el tiempo en los talones	HITCHCOCK	Don’t insist… I’m busy.
 3	22	Con el tiempo en los talones	PACINO	Nosotros go to La Nicolasa, Mr. Hitchcock… Chipirones en su tinta…
@@ -11847,8 +11847,7 @@ temporada	episodio	titulo	personaje	texto
 3	23	Tiempo de espías	CONDUCTOR	Es ist eine Falle!!!!
 3	23	Tiempo de espías	ERNESTO	¡Hay que salir de aquí!
 3	23	Tiempo de espías	SOLDADO	Mierda.
-3	23	Tiempo de espías	ERENSTO	Lola, salga de aquí… No hay tiempo que perder… ¡¡¡Vamos!!!
-3	23	Tiempo de espías	ERNESTO	¡Dios mío!
+3	23	Tiempo de espías	ERENSTO	Lola, salga de aquí… No hay tiempo que perder… ¡¡¡Vamos!!! ¡Dios mío!
 3	23	Tiempo de espías	ALONSO	¡No llegamos, no llegamos!
 3	23	Tiempo de espías	ERNESTO	¡¡Siga!! ¡¡Corra hacia ese coche!!!
 3	23	Tiempo de espías	LOLA	¡No le dejaré aquí!
@@ -16166,8 +16165,7 @@ temporada	episodio	titulo	personaje	texto
 3	31	Refugiados en el tiempo	ERNESTO	A negociar con Felipe III un digno regreso de los moriscos…
 3	31	Refugiados en el tiempo	VELÁZQUEZ	¿Podría…?
 3	31	Refugiados en el tiempo	ERNESTO	No. Y no insista.
-3	31	Refugiados en el tiempo	OFF VELÁZQUEZ	¡¡¡Esperad, esperad!!!
-3	31	Refugiados en el tiempo	VELÁZQUEZ	Sin mi cuaderno de bocetos no soy nada…
+3	31	Refugiados en el tiempo	VELÁZQUEZ	¡¡¡Esperad, esperad!!! Sin mi cuaderno de bocetos no soy nada…
 3	31	Refugiados en el tiempo	ERNESTO	Vamos a negociar con un rey, no a hacerle un retrato.
 3	31	Refugiados en el tiempo	VELÁZQUEZ	No os fallaré… Además, os puedo ayudar con el conocimiento de la época… ¡¡¡Yo pinté a Felipe III a caballo!!! ¡¡¡Fui el pintor predilecto de su hijo!!!
 3	31	Refugiados en el tiempo	ERNESTO	En 1609 tenía usted diez años…
@@ -17649,8 +17647,8 @@ temporada	episodio	titulo	personaje	texto
 3	33	Contratiempos	ERNESTO	Ni el pasado ha muerto, ni está el mañana ni el ayer escrito… Parece que quien escribió esos versos conocía este Ministerio.
 3	33	Contratiempos	IRENE	Son de Antonio Machado, ¿no?
 3	33	Contratiempos	SALVADOR	Sí… Son de Antonio Machado.
-3	34	Entre dos tiempos	JULIÁN_ACTOR	Ya. O sea, que la máquina del tiempo existe, y además es española…
-3	34	Entre dos tiempos	SALVADOR_ACTOR	¿Pero cómo va a existir una máquina del tiempo? No diga tonterías. La máquina del tiempo no existe. Lo que existen son las puertas del tiempo…
+3	34	Entre dos tiempos	JULIÁN ACTOR	Ya. O sea, que la máquina del tiempo existe, y además es española…
+3	34	Entre dos tiempos	SALVADOR ACTOR	¿Pero cómo va a existir una máquina del tiempo? No diga tonterías. La máquina del tiempo no existe. Lo que existen son las puertas del tiempo…
 3	34	Entre dos tiempos	LOCUTOR	El Ministerio del Tiempo. Muy pronto en…
 3	34	Entre dos tiempos	SALVADOR	Y yo que pensaba que lo había visto todo.
 3	34	Entre dos tiempos	ERNESTO	¿Aviso a la patrulla?
@@ -17690,8 +17688,8 @@ temporada	episodio	titulo	personaje	texto
 3	34	Entre dos tiempos	ALONSO	Todo esto parece cosa de magia. Es igual a nuestro ministerio, pero sin serlo.
 3	34	Entre dos tiempos	DIRECTOR	A ver, los figurantes… ¡¿Dónde cojones están los figurantes?!
 3	34	Entre dos tiempos	JULIÁN	Hoy es mi día. Primero conozco a Velázquez, y ahora a D’Artagnan.
-3	34	Entre dos tiempos	ALONSO_ACTOR	Vuesa merced me confunde con otro.
-3	34	Entre dos tiempos	SALVADOR_ACTOR	Doctor Julián Martínez… la señorita Amelia Folch, don Alonso de Entrerríos.
+3	34	Entre dos tiempos	ALONSO ACTOR	Vuesa merced me confunde con otro.
+3	34	Entre dos tiempos	SALVADOR ACTOR	Doctor Julián Martínez… la señorita Amelia Folch, don Alonso de Entrerríos.
 3	34	Entre dos tiempos	SALVADOR	Mejor les dejo que se vayan conociendo.
 3	34	Entre dos tiempos	ALONSO	Fue parecido… Pero no exactamente igual…
 3	34	Entre dos tiempos	PACINO	¿En qué ha cambiado la cosa?
@@ -17756,14 +17754,13 @@ temporada	episodio	titulo	personaje	texto
 3	34	Entre dos tiempos	HURTADO	Piense en mi propuesta.
 3	34	Entre dos tiempos	APARICIO-BERNAL	“Un concurso para sabios… en el que gana el que más sabe…” No le veo yo mucho futuro. Estamos buscando otras cosas.
 3	34	Entre dos tiempos	HURTADO	¿Y qué buscan?
-3	34	Entre dos tiempos	APARCIO-BERNAL	Algo alegre y rutilante, que ilusione a los españoles, como “Reina por un día”.
+3	34	Entre dos tiempos	APARICIO-BERNAL	Algo alegre y rutilante, que ilusione a los españoles, como “Reina por un día”.
 3	34	Entre dos tiempos	HURTADO	Pero ese programa ya existe.
 3	34	Entre dos tiempos	APARICIO-BERNAL	Y es un éxito. Queremos otro igual.
 3	34	Entre dos tiempos	HURTADO	Adiós.
 3	34	Entre dos tiempos	APARICIO-BERNAL	¡Hombre, Ureña! Pase, pase…
 3	34	Entre dos tiempos	UREÑA	Aquí le traigo los capítulos que quedaban.
-3	34	Entre dos tiempos	APARICIO-BERNAL	Perfecto.
-3	34	Entre dos tiempos	APARICIO-BERNAL	“Tiempo de gloria”, me gusta el título. ¿De qué trata?
+3	34	Entre dos tiempos	APARICIO-BERNAL	Perfecto. “Tiempo de gloria”, me gusta el título. ¿De qué trata?
 3	34	Entre dos tiempos	UREÑA	Está dedicado a Lope de Vega. Una de las figuras cumbres de la historia de nuestra literatura.
 3	34	Entre dos tiempos	APARICIO-BERNAL	Eso está muy bien. Si algo necesita ahora este país son espejos en los que la gente pueda reflejarse. Compatriotas a los que admirar. HÉROES.
 3	34	Entre dos tiempos	UREÑA	No se preocupe, que de eso vamos sobrados. Tendremos a los Reyes Católicos, a Isabel II, a…
@@ -17783,11 +17780,11 @@ temporada	episodio	titulo	personaje	texto
 3	34	Entre dos tiempos	CHICHO	Pero no entiendo… Él mismo me había convocado. Traigo el guión de…
 3	34	Entre dos tiempos	LOLA	Si quiere puedo concertarle otra cita…
 3	34	Entre dos tiempos	CHICHO	Si no queda más remedio.
-3	34	Entre dos tiempos	ALONSO_ACTOR	¿Tienes hambre, camarada? ¡Pues come bocadillo de nudillos!
+3	34	Entre dos tiempos	ALONSO ACTOR	¿Tienes hambre, camarada? ¡Pues come bocadillo de nudillos!
 3	34	Entre dos tiempos	PACINO	¡No te acerques o le mato! ¡Lo juro por la perra Laika!
-3	34	Entre dos tiempos	JULIÁN_ACTOR	¡Hazle caso, Alonso!
+3	34	Entre dos tiempos	JULIÁN ACTOR	¡Hazle caso, Alonso!
 3	34	Entre dos tiempos	PACINO	¡Este ministerio ahora pertenece al camarada Jruschov!
-3	34	Entre dos tiempos	ALONSO_ACTOR	¡Nunca os saldréis con la vuestra, eslavo! ¡Traga plomo, malandrín!
+3	34	Entre dos tiempos	ALONSO ACTOR	¡Nunca os saldréis con la vuestra, eslavo! ¡Traga plomo, malandrín!
 3	34	Entre dos tiempos	DIRECTOR	Bien. Muy “Roberto Alcázar y Pedrín”, justo lo que buscábamos. ¡A rodar!
 3	34	Entre dos tiempos	ALONSO	No fueron rusos, fueron nazis.
 3	34	Entre dos tiempos	PACINO	Cada época tiene sus malos. Ahora tocan éstos.
@@ -17796,14 +17793,14 @@ temporada	episodio	titulo	personaje	texto
 3	34	Entre dos tiempos	DIRECTOR	¡Todo el mundo en sus marcas!
 3	34	Entre dos tiempos	DIRECTOR	Y… ¡Acción!
 3	34	Entre dos tiempos	PACINO	¿Dónde vas, sucio capitalista?
-3	34	Entre dos tiempos	ALONSO_ACTOR	¡Deteneos o lo lamentaréis!
+3	34	Entre dos tiempos	ALONSO ACTOR	¡Deteneos o lo lamentaréis!
 3	34	Entre dos tiempos	ALONSO	¡JAMÁS!
-3	34	Entre dos tiempos	ALONSO_ACTOR	¡No digáis que no os advertí!
-3	34	Entre dos tiempos	ALONSO_ACTOR	¡Me ha roto la nariz! ¡Este animal me ha roto la nariz!
+3	34	Entre dos tiempos	ALONSO ACTOR	¡No digáis que no os advertí!
+3	34	Entre dos tiempos	ALONSO ACTOR	¡Me ha roto la nariz! ¡Este animal me ha roto la nariz!
 3	34	Entre dos tiempos	DIRECTOR	¡Corten, corten! Pacino corre hacia Alonso y le separa.
 3	34	Entre dos tiempos	PACINO	Pero, ¿qué haces?
 3	34	Entre dos tiempos	ALONSO	Darlo todo.
-3	34	Entre dos tiempos	ALONSO_ACTOR	¡Dimito!
+3	34	Entre dos tiempos	ALONSO ACTOR	¡Dimito!
 3	34	Entre dos tiempos	ALONSO	Lo siento, me he dejado llevar…
 3	34	Entre dos tiempos	DIRECTOR	No, qué va… Ha sido ma-ra-vi-llo-so. ¡Parece usted la reencarnación del mismísmo Alonso de Entrerríos! Creo que acabo de descubrir una estrella.
 3	34	Entre dos tiempos	PACINO	Es Lola.
@@ -17895,10 +17892,9 @@ temporada	episodio	titulo	personaje	texto
 3	34	Entre dos tiempos	ALONSO	Hay que volver a 1966.
 3	34	Entre dos tiempos	ERNESTO	Sí… Gracias.
 3	34	Entre dos tiempos	LOLA	Aquí tiene su tilita…
-3	34	Entre dos tiempos	APARICIO-BERNAL	Gracias, señorita…
-3	34	Entre dos tiempos	APARICIO-BERNAL	¿Y ahora qué ponemos el viernes por la noche? No tenemos nada.
+3	34	Entre dos tiempos	APARICIO-BERNAL	Gracias, señorita… ¿Y ahora qué ponemos el viernes por la noche? No tenemos nada.
 3	34	Entre dos tiempos	LOLA	Podría llamar a Ibáñez Serrador… Al menos él ya tiene los guiones escritos.
-3	34	Entre dos tiempos	APARICIÓ-BERNAL	No es que me guste, pero no tenemos otra cosa… ¡Que empiece cuanto antes con su serie!
+3	34	Entre dos tiempos	APARICII-BERNAL	No es que me guste, pero no tenemos otra cosa… ¡Que empiece cuanto antes con su serie!
 3	34	Entre dos tiempos	LOLA	Sí, señor.
 3	34	Entre dos tiempos	APARICIO-BERNAL	¡Y póngame con la Dirección General de Policía!
 3	34	Entre dos tiempos	UREÑA	¡Casi me pillan, joder! ¿Y todo este riesgo para qué? ¿Para desmontar el chiringuito de unos pringaos?
@@ -18122,15 +18118,11 @@ temporada	episodio	titulo	personaje	texto
 3	34	Entre dos tiempos	JEFE DE SEGURIDAD	Se trata de que hemos contaminado el pasado y éste nos la devuelve con enfermedades que no podremos controlar.
 3	34	Entre dos tiempos	UREÑA	No se ponga catastrófico, por favor.
 3	34	Entre dos tiempos	JEFE DE SEGURIDAD	¿Ahora de qué le van a servir los millones que ha ganado? ¿Se los va a llevar al otro mundo?
-3	34	Entre dos tiempos	UREÑA	¡Váyase a la mierda!
-3	34	Entre dos tiempos	UREÑA	¿Salvador? Le necesito urgentemente. ¿Con una condición? ¿Cuál? De acuerdo.
-3	34	Entre dos tiempos	UREÑA	No tenían que haber venido… Vamos a contagiarnos todos.
+3	34	Entre dos tiempos	UREÑA	¡Váyase a la mierda! ¿Salvador? Le necesito urgentemente. ¿Con una condición? ¿Cuál? De acuerdo. No tenían que haber venido… Vamos a contagiarnos todos.
 3	34	Entre dos tiempos	IRENE	Me temo que eso va a ser irremediable.
 3	34	Entre dos tiempos	UREÑA	¿Qué podemos hacer?
 3	34	Entre dos tiempos	SALVADOR	Seré breve… Y se lo explicaremos con dibujitos, para que lo entienda. Irene, por favor…
-3	34	Entre dos tiempos	IRENE	Esta es la evolución de la enfermedad… En una semana…
-3	34	Entre dos tiempos	IRENE	En un mes…
-3	34	Entre dos tiempos	IRENE	En un año.
+3	34	Entre dos tiempos	IRENE	Esta es la evolución de la enfermedad… En una semana… En un mes… En un año.
 3	34	Entre dos tiempos	ERNESTO	Sólo se salvará Canarias… Y eso si cierran todos los aeropuertos y transporte marítimo… Que es lo que hará con nosotros el mundo entero.
 3	34	Entre dos tiempos	LOLA	Enhorabuena. Ha acabado usted con nuestro pasado y con nuestro futuro.
 3	34	Entre dos tiempos	ALONSO	Y yo voy a acabar con usted.
@@ -18148,19 +18140,16 @@ temporada	episodio	titulo	personaje	texto
 3	34	Entre dos tiempos	PACINO	Pero muy parda, Ureña.
 3	34	Entre dos tiempos	UREÑA	¿Qué tengo que hacer?
 3	34	Entre dos tiempos	IRENE	Viajar atrás. Justo al momento que usted empezó todo… Y convencer a su otro yo de que no haga lo que hizo.
-3	34	Entre dos tiempos	ERNESTO	Año 2011. Yo le acompañaré a la puerta exacta. No olvide llevarse las fotos.
-3	34	Entre dos tiempos	ERNESTO	Yo le acompañaré a la puerta exacta.
+3	34	Entre dos tiempos	ERNESTO	Año 2011. Yo le acompañaré a la puerta exacta. No olvide llevarse las fotos. Yo le acompañaré a la puerta exacta.
 3	34	Entre dos tiempos	PACINO	¿Y Lola, Alonso y yo?
 3	34	Entre dos tiempos	IRENE	Viajarán al 1966, desde donde vinieron aquí…
 3	34	Entre dos tiempos	PACINO	Perfecto. ¿Me da el móvil?
-3	34	Entre dos tiempos	SALVADOR	Claro… Pero antes tengo que hacer una cosita…
-3	34	Entre dos tiempos	SALVADOR	Ya está… No hay futuro.
+3	34	Entre dos tiempos	SALVADOR	Claro… Pero antes tengo que hacer una cosita… Ya está… No hay futuro.
 3	34	Entre dos tiempos	PACINO	Podía haberse esperado a ponerse en plan Sex Pistols… A lo mejor el otro Salvador opinaba lo contrario.
 3	34	Entre dos tiempos	IRENE	Haría lo mismo, no lo dudes.
 3	34	Entre dos tiempos	SALVADOR	No me he pasado la vida diciendo mil veces que no se puede viajar al futuro para que ahora se pueda hacer… No, hombre, no.
 3	34	Entre dos tiempos	UREÑA	Al contrario, abuelo. Ahora sabemos que no hay más ideología que el dinero.
-3	34	Entre dos tiempos	UREÑA	Este libro me va a abrir muchas puertas… Nunca mejor dicho.
-3	34	Entre dos tiempos	UREÑA	¿Tiene alguien más llaves de esta casa?
+3	34	Entre dos tiempos	UREÑA	Este libro me va a abrir muchas puertas… Nunca mejor dicho. ¿Tiene alguien más llaves de esta casa?
 3	34	Entre dos tiempos	UREÑA ABUELO	No, que yo sepa…
 3	34	Entre dos tiempos	UREÑA 2	Vengo del año 2017. Tenemos que hablar muy seriamente.
 3	34	Entre dos tiempos	UREÑA ABUELO	¡La cafinitrina, la cafinitrina!
