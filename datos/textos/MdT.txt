@@ -384,7 +384,7 @@ temporada	episodio	titulo	personaje	texto
 1	1	El tiempo es el que es	AMELIA	Usted es Juan Martín Díez, y le dicen El Empecinado.
 1	1	El tiempo es el que es	JULIÁN	Y corre un grave peligro.
 1	1	El tiempo es el que es	JUAN MARTÍN	Insisto, me confunden…
-1	1	El tiempo es el que es	AMELIA	Sé perfectamente quién es usted. Sé que combatió en el Rosellón, que vive del campo en el pueblo de su esposa, que se levantó contra el invasor cuando soldados franceses violaron a una muchacha en el pueblo…	… que Goya le hizo un retrato…
+1	1	El tiempo es el que es	AMELIA Sé perfectamente quién es usted. Sé que combatió en el Rosellón, que vive del campo en el pueblo de su esposa, que se levantó contra el invasor cuando soldados franceses violaron a una muchacha en el pueblo… … que Goya le hizo un retrato…
 1	1	El tiempo es el que es	JUAN MARTÍN	¿Que quién me hizo qué?
 1	1	El tiempo es el que es	JULIÁN	Que… igual Goya no le ha pintado nada todavía…
 1	1	El tiempo es el que es	AMELIA	Oh… Da igual. Lo que importa es que su vida corre peligro.
@@ -10667,7 +10667,7 @@ temporada	episodio	titulo	personaje	texto
 2	20	Hasta que el tiempo nos separe	ALONSO	¡Elena! ¡Soltadla, malnacido!
 2	20	Hasta que el tiempo nos separe	SALVADOR	Alonso, ¿dónde va?
 2	20	Hasta que el tiempo nos separe	ALONSO	¡Hasta el infierno si hace falta!
-2	20	Hasta que el tiempo nos separe	FADRIQUE	¡Rápido! ¡Volvamos a casa y sellemos la puerta de este infierno! Si no puedo tener lo que deseo, aprenderé a desear lo que sí tengo.	Piedad… piedad…
+2	20	Hasta que el tiempo nos separe	FADRIQUE	¡Rápido! ¡Volvamos a casa y sellemos la puerta de este infierno! Si no puedo tener lo que deseo, aprenderé a desear lo que sí tengo. Piedad… piedad…
 2	20	Hasta que el tiempo nos separe	SEÑORA	¡Que acabo de fregar!
 2	20	Hasta que el tiempo nos separe	FADRIQUE	Salgamos… Hay que tapiar esta puerta hacia el infierno.
 2	20	Hasta que el tiempo nos separe	SAAVEDRA	Falta Nuño.
@@ -11843,7 +11843,7 @@ temporada	episodio	titulo	personaje	texto
 3	23	Tiempo de espías	ALONSO	Si no les sacamos de ahí, van a morir como chinches.
 3	23	Tiempo de espías	ERNESTO	Wir transportiert uns von hier. Sie diesen Auftrag, ich bestellte.
 3	23	Tiempo de espías	CONDUCTOR	Dame un cigarro, camarada. Gib mir eine Zigarette an, Kamerad. Was ist die Hauptstadt von Deutschland?
-3	23	Tiempo de espías	AGENTE VESTIDO DE NAZI,Ja.
+3	23	Tiempo de espías	AGENTE VESTIDO DE NAZI	Ja.
 3	23	Tiempo de espías	CONDUCTOR	Es ist eine Falle!!!!
 3	23	Tiempo de espías	ERNESTO	¡Hay que salir de aquí!
 3	23	Tiempo de espías	SOLDADO	Mierda.
@@ -12953,7 +12953,7 @@ temporada	episodio	titulo	personaje	texto
 3	25	Tiempo de ilustrados	ALONSO	Supongamos que tengo éxito… ¿Y Goya? ¿Cómo se va a encontrar con la de Alba?
 3	25	Tiempo de ilustrados	PACINO	De ahí lo de la cita a ciegas… Te citarás con Goya en el mismo lugar y a la misma hora para comprarle uno de sus Caprichos, pero será la Duquesa la que aparezca.
 3	25	Tiempo de ilustrados	ALONSO	Más nos vale.
-3	25	Tiempo de ilustrados	MARÍA TERESA DEL TORO,Disculpe… Nos conocimos esta mañana, en la inclusa. Permítanme que les presente a María Teresa de Silva Álvarez de Toledo, la Duquesa de Alba. Ellos son…
+3	25	Tiempo de ilustrados	MARÍA TERESA DEL TORO	Disculpe… Nos conocimos esta mañana, en la inclusa. Permítanme que les presente a María Teresa de Silva Álvarez de Toledo, la Duquesa de Alba. Ellos son…
 3	25	Tiempo de ilustrados	PACINO	Pacino y Alonso. El resto de podemos dejarlos para después, cuando no tengamos de qué hablar.
 3	25	Tiempo de ilustrados	DUQUESA DE ALBA	Encantada.
 3	25	Tiempo de ilustrados	MARÍA TERESA DEL TORO	Ambos son miembros de la expedición Malaspina. Seguro que tienen cientos de aventuras maravillosas que contar.
