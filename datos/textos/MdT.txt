@@ -83,7 +83,7 @@ temporada	episodio	titulo	personaje	texto
 1	1	El tiempo es el que es	ANGUSTIAS	¿Nuevo?
 1	1	El tiempo es el que es	ERNESTO	Sí. Nos espera el subsecretario… Por aquí.
 1	1	El tiempo es el que es	JULIÁN	Sí, son ellos. ¿Venían de una fiesta de disfraces?
-1	1	El tiempo es el que es	SALVADOR	No. De 1808.¿Julián Martínez? Salvador Martí. Encantado de conocerle.
+1	1	El tiempo es el que es	SALVADOR	No. De 1808. ¿Julián Martínez? Salvador Martí. Encantado de conocerle.
 1	1	El tiempo es el que es	JULIÁN	No sé si estoy en condiciones de decir lo mismo… Dicen que son del 1808… ¿Los cadáveres se han conservado así desde hace dos siglos?
 1	1	El tiempo es el que es	SALVADOR	No. Murieron anteanoche por inhalación de humo. Creemos que vinieron de 1808 como mucho veinticuatro horas antes…
 1	1	El tiempo es el que es	IRENE	Y ahora sabemos que no lo hicieron solos.
