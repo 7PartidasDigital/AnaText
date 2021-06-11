@@ -12,3 +12,9 @@ Los ficheros de datos y scripts están en UTF-8. Téngalo en cuenta si utiliza u
 Todo este material se distribuyen sin ninguna garantía bajo una [licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
 
 Los textos de los Mensajes de Navidad, de acuerdo con los términos legales expuestos en el [Aviso legal](http://www.casareal.es/ES/Paginas/aviso-legal.aspx), se han reunido para uso personal y educativo, para cualquier otro uso refiérase al portal de la Casa Real.
+
+Este material ha derivado en el libro web **Fradejas Rueda**, José Manuel (2019), _Cuentapalabras: Estilometría y análisis de texto con R para filólogos_. Valladoldid: Universidad de Valladolid, http://www.aic.uva.es/cuentapalabras/
+
+CITAR como
+
+Fradejas Rueda, José Manuel (2018). *Análisis de textos y estilometría con R*, (AnaText), https://github.com/7PartidasDigital/AnaText 
