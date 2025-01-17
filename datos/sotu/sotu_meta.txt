@@ -1,0 +1,245 @@
+speech	president	year	years_active	party	sotu_type
+1	George Washington	1790	1789-1793	Nonpartisan	speech
+2	George Washington	1790	1789-1793	Nonpartisan	speech
+3	George Washington	1791	1789-1793	Nonpartisan	speech
+4	George Washington	1792	1789-1793	Nonpartisan	speech
+5	George Washington	1793	1793-1797	Nonpartisan	speech
+6	George Washington	1794	1793-1797	Nonpartisan	speech
+7	George Washington	1795	1793-1797	Nonpartisan	speech
+8	George Washington	1796	1793-1797	Nonpartisan	speech
+9	John Adams	1797	1797-1801	Federalist	speech
+10	John Adams	1798	1797-1801	Federalist	speech
+11	John Adams	1799	1797-1801	Federalist	speech
+12	John Adams	1800	1797-1801	Federalist	speech
+13	Thomas Jefferson	1801	1801-1805	Democratic-Republican	written
+14	Thomas Jefferson	1802	1801-1805	Democratic-Republican	written
+15	Thomas Jefferson	1803	1801-1805	Democratic-Republican	written
+16	Thomas Jefferson	1804	1801-1805	Democratic-Republican	written
+17	Thomas Jefferson	1805	1805-1809	Democratic-Republican	written
+18	Thomas Jefferson	1806	1805-1809	Democratic-Republican	written
+19	Thomas Jefferson	1807	1805-1809	Democratic-Republican	written
+20	Thomas Jefferson	1808	1805-1809	Democratic-Republican	written
+21	James Madison	1809	1809-1813	Democratic-Republican	written
+22	James Madison	1810	1809-1813	Democratic-Republican	written
+23	James Madison	1811	1809-1813	Democratic-Republican	written
+24	James Madison	1812	1809-1813	Democratic-Republican	written
+25	James Madison	1813	1813-1817	Democratic-Republican	written
+26	James Madison	1814	1813-1817	Democratic-Republican	written
+27	James Madison	1815	1813-1817	Democratic-Republican	written
+28	James Madison	1816	1813-1817	Democratic-Republican	written
+29	James Monroe	1817	1817-1821	Democratic-Republican	written
+30	James Monroe	1818	1817-1821	Democratic-Republican	written
+31	James Monroe	1819	1817-1821	Democratic-Republican	written
+32	James Monroe	1820	1817-1821	Democratic-Republican	written
+33	James Monroe	1821	1821-1825	Democratic-Republican	written
+34	James Monroe	1822	1821-1825	Democratic-Republican	written
+35	James Monroe	1823	1821-1825	Democratic-Republican	written
+36	James Monroe	1824	1821-1825	Democratic-Republican	written
+37	John Quincy Adams	1825	1825-1829	Democratic-Republican	written
+38	John Quincy Adams	1826	1825-1829	Democratic-Republican	written
+39	John Quincy Adams	1827	1825-1829	Democratic-Republican	written
+40	John Quincy Adams	1828	1825-1829	Democratic-Republican	written
+41	Andrew Jackson	1829	1829-1833	Democratic	written
+42	Andrew Jackson	1830	1829-1833	Democratic	written
+43	Andrew Jackson	1831	1829-1833	Democratic	written
+44	Andrew Jackson	1832	1829-1833	Democratic	written
+45	Andrew Jackson	1833	1833-1837	Democratic	written
+46	Andrew Jackson	1834	1833-1837	Democratic	written
+47	Andrew Jackson	1835	1833-1837	Democratic	written
+48	Andrew Jackson	1836	1833-1837	Democratic	written
+49	Martin Van Buren	1837	1837-1841	Democratic	written
+50	Martin Van Buren	1838	1837-1841	Democratic	written
+51	Martin Van Buren	1839	1837-1841	Democratic	written
+52	Martin Van Buren	1840	1837-1841	Democratic	written
+53	John Tyler	1841	1841-1845	Whig	written
+54	John Tyler	1842	1841-1845	Whig	written
+55	John Tyler	1843	1841-1845	Whig	written
+56	John Tyler	1844	1841-1845	Whig	written
+57	James K. Polk	1845	1845-1849	Democratic	written
+58	James K. Polk	1846	1845-1849	Democratic	written
+59	James K. Polk	1847	1845-1849	Democratic	written
+60	James K. Polk	1848	1845-1849	Democratic	written
+61	Zachary Taylor	1849	1849-1850	Whig	written
+62	Millard Fillmore	1850	1850-1853	Whig	written
+63	Millard Fillmore	1851	1850-1853	Whig	written
+64	Millard Fillmore	1852	1850-1853	Whig	written
+65	Franklin Pierce	1853	1853-1857	Democratic	written
+66	Franklin Pierce	1854	1853-1857	Democratic	written
+67	Franklin Pierce	1855	1853-1857	Democratic	written
+68	Franklin Pierce	1856	1853-1857	Democratic	written
+69	James Buchanan	1857	1857-1861	Democratic	written
+70	James Buchanan	1858	1857-1861	Democratic	written
+71	James Buchanan	1859	1857-1861	Democratic	written
+72	James Buchanan	1860	1857-1861	Democratic	written
+73	Abraham Lincoln	1861	1861-1865	Republican	written
+74	Abraham Lincoln	1862	1861-1865	Republican	written
+75	Abraham Lincoln	1863	1861-1865	Republican	written
+76	Abraham Lincoln	1864	1861-1865	Republican	written
+77	Andrew Johnson	1865	1865-1869	Republican	written
+78	Andrew Johnson	1866	1865-1869	Republican	written
+79	Andrew Johnson	1867	1865-1869	Republican	written
+80	Andrew Johnson	1868	1865-1869	Republican	written
+81	Ulysses S. Grant	1869	1869-1873	Republican	written
+82	Ulysses S. Grant	1870	1869-1873	Republican	written
+83	Ulysses S. Grant	1871	1869-1873	Republican	written
+84	Ulysses S. Grant	1872	1869-1873	Republican	written
+85	Ulysses S. Grant	1873	1873-1877	Republican	written
+86	Ulysses S. Grant	1874	1873-1877	Republican	written
+87	Ulysses S. Grant	1875	1873-1877	Republican	written
+88	Ulysses S. Grant	1876	1873-1877	Republican	written
+89	Rutherford B. Hayes	1877	1877-1881	Republican	written
+90	Rutherford B. Hayes	1878	1877-1881	Republican	written
+91	Rutherford B. Hayes	1879	1877-1881	Republican	written
+92	Rutherford B. Hayes	1880	1877-1881	Republican	written
+93	Chester A. Arthur	1881	1881-1885	Republican	written
+94	Chester A. Arthur	1882	1881-1885	Republican	written
+95	Chester A. Arthur	1883	1881-1885	Republican	written
+96	Chester A. Arthur	1884	1881-1885	Republican	written
+97	Grover Cleveland	1885	1885-1889	Democratic	written
+98	Grover Cleveland	1886	1885-1889	Democratic	written
+99	Grover Cleveland	1887	1885-1889	Democratic	written
+100	Grover Cleveland	1888	1885-1889	Democratic	written
+101	Benjamin Harrison	1889	1889-1893	Republican	written
+102	Benjamin Harrison	1890	1889-1893	Republican	written
+103	Benjamin Harrison	1891	1889-1893	Republican	written
+104	Benjamin Harrison	1892	1889-1893	Republican	written
+105	Grover Cleveland	1893	1893-1897	Democratic	written
+106	Grover Cleveland	1894	1893-1897	Democratic	written
+107	Grover Cleveland	1895	1893-1897	Democratic	written
+108	Grover Cleveland	1896	1893-1897	Democratic	written
+109	William McKinley	1897	1897-1901	Republican	written
+110	William McKinley	1898	1897-1901	Republican	written
+111	William McKinley	1899	1897-1901	Republican	written
+112	William McKinley	1900	1897-1901	Republican	written
+113	Theodore Roosevelt	1901	1901-1905	Republican	written
+114	Theodore Roosevelt	1902	1901-1905	Republican	written
+115	Theodore Roosevelt	1903	1901-1905	Republican	written
+116	Theodore Roosevelt	1904	1901-1905	Republican	written
+117	Theodore Roosevelt	1905	1905-1909	Republican	written
+118	Theodore Roosevelt	1906	1905-1909	Republican	written
+119	Theodore Roosevelt	1907	1905-1909	Republican	written
+120	Theodore Roosevelt	1908	1905-1909	Republican	written
+121	William Howard Taft	1909	1909-1913	Republican	written
+122	William Howard Taft	1910	1909-1913	Republican	written
+123	William Howard Taft	1911	1909-1913	Republican	written
+124	William Howard Taft	1912	1909-1913	Republican	written
+125	Woodrow Wilson	1913	1913-1917	Democratic	speech
+126	Woodrow Wilson	1914	1913-1917	Democratic	speech
+127	Woodrow Wilson	1915	1913-1917	Democratic	speech
+128	Woodrow Wilson	1916	1913-1917	Democratic	speech
+129	Woodrow Wilson	1917	1917-1921	Democratic	speech
+130	Woodrow Wilson	1918	1917-1921	Democratic	speech
+131	Woodrow Wilson	1919	1917-1921	Democratic	written
+132	Woodrow Wilson	1920	1917-1921	Democratic	written
+133	Warren G. Harding	1921	1921-1923	Republican	speech
+134	Warren G. Harding	1922	1921-1923	Republican	speech
+135	Calvin Coolidge	1923	1923-1925	Republican	speech
+136	Calvin Coolidge	1924	1923-1925	Republican	written
+137	Calvin Coolidge	1925	1925-1929	Republican	written
+138	Calvin Coolidge	1926	1925-1929	Republican	written
+139	Calvin Coolidge	1927	1925-1929	Republican	written
+140	Calvin Coolidge	1928	1925-1929	Republican	written
+141	Herbert Hoover	1929	1929-1933	Republican	written
+142	Herbert Hoover	1930	1929-1933	Republican	written
+143	Herbert Hoover	1931	1929-1933	Republican	written
+144	Herbert Hoover	1932	1929-1933	Republican	written
+145	Franklin D. Roosevelt	1934	1933-1937	Democratic	speech
+146	Franklin D. Roosevelt	1935	1933-1937	Democratic	speech
+147	Franklin D. Roosevelt	1936	1933-1937	Democratic	speech
+148	Franklin D. Roosevelt	1937	1937-1941	Democratic	speech
+149	Franklin D. Roosevelt	1938	1937-1941	Democratic	speech
+150	Franklin D. Roosevelt	1939	1937-1941	Democratic	speech
+151	Franklin D. Roosevelt	1940	1937-1941	Democratic	speech
+152	Franklin D. Roosevelt	1941	1941-1945	Democratic	speech
+153	Franklin D. Roosevelt	1942	1941-1945	Democratic	speech
+154	Franklin D. Roosevelt	1943	1941-1945	Democratic	speech
+155	Franklin D. Roosevelt	1944	1941-1945	Democratic	speech
+156	Franklin D. Roosevelt	1945	1941-1945	Democratic	speech
+157	Franklin D. Roosevelt	1945	1941-1945	Democratic	written
+158	Harry S Truman	1946	1945-1949	Democratic	written
+159	Harry S Truman	1947	1945-1949	Democratic	speech
+160	Harry S Truman	1948	1945-1949	Democratic	speech
+161	Harry S Truman	1949	1949-1953	Democratic	speech
+162	Harry S Truman	1950	1949-1953	Democratic	speech
+163	Harry S Truman	1951	1949-1953	Democratic	speech
+164	Harry S Truman	1952	1949-1953	Democratic	speech
+165	Dwight D. Eisenhower	1953	1953-1957	Republican	written
+166	Harry S Truman	1953	1949-1953	Democratic	written
+167	Dwight D. Eisenhower	1954	1953-1957	Republican	speech
+168	Dwight D. Eisenhower	1955	1953-1957	Republican	speech
+169	Dwight D. Eisenhower	1956	1953-1957	Republican	speech
+170	Dwight D. Eisenhower	1956	1953-1957	Republican	written
+171	Dwight D. Eisenhower	1957	1957-1961	Republican	speech
+172	Dwight D. Eisenhower	1958	1957-1961	Republican	speech
+173	Dwight D. Eisenhower	1959	1957-1961	Republican	speech
+174	Dwight D. Eisenhower	1960	1957-1961	Republican	speech
+175	John F. Kennedy	1961	1961-1963	Democratic	written
+176	Dwight D. Eisenhower	1961	1957-1961	Republican	written
+177	John F. Kennedy	1962	1961-1963	Democratic	speech
+178	John F. Kennedy	1963	1961-1963	Democratic	speech
+179	Lyndon B. Johnson	1964	1964-1965	Democratic	speech
+180	Lyndon B. Johnson	1965	1965-1969	Democratic	speech
+181	Lyndon B. Johnson	1966	1965-1969	Democratic	speech
+182	Lyndon B. Johnson	1967	1965-1969	Democratic	speech
+183	Lyndon B. Johnson	1968	1965-1969	Democratic	speech
+184	Lyndon B. Johnson	1969	1965-1969	Democratic	written
+185	Richard M. Nixon	1970	1969-1973	Republican	speech
+186	Richard M. Nixon	1971	1969-1973	Republican	speech
+187	Richard M. Nixon	1972	1969-1973	Republican	speech
+188	Richard M. Nixon	1972	1969-1973	Republican	written
+189	Richard M. Nixon	1974	1973-1974	Republican	speech
+190	Richard M. Nixon	1974	1973-1974	Republican	written
+191	Gerald R. Ford	1975	1974-1977	Republican	speech
+192	Gerald R. Ford	1976	1974-1977	Republican	speech
+193	Gerald R. Ford	1977	1974-1977	Republican	written
+194	Jimmy Carter	1978	1977-1981	Democratic	speech
+195	Jimmy Carter	1978	1977-1981	Democratic	written
+196	Jimmy Carter	1979	1977-1981	Democratic	speech
+197	Jimmy Carter	1979	1977-1981	Democratic	written
+198	Jimmy Carter	1980	1977-1981	Democratic	speech
+199	Jimmy Carter	1980	1977-1981	Democratic	written
+200	Ronald Reagan	1981	1981-1985	Republican	speech
+201	Jimmy Carter	1981	1977-1981	Democratic	written
+202	Ronald Reagan	1982	1981-1985	Republican	speech
+203	Ronald Reagan	1983	1981-1985	Republican	speech
+204	Ronald Reagan	1984	1981-1985	Republican	speech
+205	Ronald Reagan	1985	1985-1989	Republican	speech
+206	Ronald Reagan	1986	1985-1989	Republican	speech
+207	Ronald Reagan	1987	1985-1989	Republican	speech
+208	Ronald Reagan	1988	1985-1989	Republican	speech
+209	George Bush	1989	1989-1993	Republican	speech
+210	George Bush	1990	1989-1993	Republican	speech
+211	George Bush	1991	1989-1993	Republican	speech
+212	George Bush	1992	1989-1993	Republican	speech
+213	William J. Clinton	1993	1993-1997	Democratic	speech
+214	William J. Clinton	1994	1993-1997	Democratic	speech
+215	William J. Clinton	1995	1993-1997	Democratic	speech
+216	William J. Clinton	1996	1993-1997	Democratic	speech
+217	William J. Clinton	1997	1997-2001	Democratic	speech
+218	William J. Clinton	1998	1997-2001	Democratic	speech
+219	William J. Clinton	1999	1997-2001	Democratic	speech
+220	William J. Clinton	2000	1997-2001	Democratic	speech
+221	George W. Bush	2001	2001-2005	Republican	speech
+222	George W. Bush	2002	2001-2005	Republican	speech
+223	George W. Bush	2003	2001-2005	Republican	speech
+224	George W. Bush	2004	2001-2005	Republican	speech
+225	George W. Bush	2005	2005-2009	Republican	speech
+226	George W. Bush	2006	2005-2009	Republican	speech
+227	George W. Bush	2007	2005-2009	Republican	speech
+228	George W. Bush	2008	2005-2009	Republican	speech
+229	Barack Obama	2009	2009-2013	Democratic	speech
+230	Barack Obama	2010	2009-2013	Democratic	speech
+231	Barack Obama	2011	2009-2013	Democratic	speech
+232	Barack Obama	2012	2009-2013	Democratic	speech
+233	Barack Obama	2013	2013-2016	Democratic	speech
+234	Barack Obama	2014	2013-2016	Democratic	speech
+235	Barack Obama	2015	2013-2016	Democratic	speech
+236	Barack Obama	2016	2013-2016	Democratic	speech
+237	Donald Trump	2017	2016-2020	Republican	speech
+238	Donald Trump	2018	2016-2020	Republican	speech
+239	Donald Trump	2019	2016-2020	Republican	speech
+240	Donald Trump	2020	2016-2020	Republican	speech
+241	Joe Biden	2021	2021-2025	Democratic	speech
+242	Joe Biden	2022	2021-2025	Democratic	speech
+243	Joe Biden	2023	2021-2025	Democratic	speech
+244	Joe Biden	2023	2021-2025	Democratic	speech
