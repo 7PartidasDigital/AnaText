@@ -21,7 +21,7 @@ Fradejas Rueda, José Manuel (2018). *Análisis de textos y estilometría con R*
 <span>
 <p style='margin-top:1em; text-align:center'>
 <b>COLOFÓN</b>
-<br>Esta página se ha creado dentro de las actividades y desarrollos del proyecto 7PartidasDigital.</p>
+<br>Este repositorio se ha creado dentro de las actividades y desarrollos del proyecto 7PartidasDigital.</p>
 <p style='margin-left:1em;'>
 </p></span>
 </div>
