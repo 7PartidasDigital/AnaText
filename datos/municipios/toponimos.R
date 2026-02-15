@@ -69,11 +69,13 @@ read_and_prepare <- function(path, sep = "\t", header = TRUE, clip_bbox = TRUE) 
   )
   
   # Requerimos lon/lat y columnas mínimas
-  needed <- c("tipo", "toponimo", "idioma", "lon", "lat", "provincia")
+  # Requerimos solo las columnas realmente necesarias
+  needed <- c("tipo", "toponimo", "lon", "lat", "provincia")
   miss <- setdiff(needed, names(df))
   if (length(miss) > 0) {
     stop("Faltan columnas esperadas en la tabla: ", paste(miss, collapse = ", "))
   }
+  
   
   df <- df %>%
     mutate(
@@ -479,10 +481,14 @@ server <- function(input, output, session){
     content = function(file) {
       base <- base_df()
       if (is.null(base) || nrow(base) == 0) {
-        # estructura mínima
+        # estructura mínima (sin 'idioma'), incluimos 'comunidad' por compatibilidad
         sample_df <- data.frame(
-          tipo = c("Municipio"), toponimo = c("Ejemplo"), idioma = c(NA),
-          lon = c(-3.5), lat = c(40.4), provincia = c("EjemploProv"),
+          tipo = c("Municipio"),
+          toponimo = c("Ejemplo"),
+          lon = c(-3.5),
+          lat = c(40.4),
+          provincia = c("EjemploProv"),
+          comunidad = NA_character_,
           stringsAsFactors = FALSE
         )
         write.table(sample_df, file, sep = "\t", row.names = FALSE, quote = FALSE, fileEncoding = "UTF-8")
