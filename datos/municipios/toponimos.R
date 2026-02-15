@@ -1,4 +1,54 @@
-# app.R
+# =====================================================================
+# app.R  —  Buscador geográfico de topónimos
+#
+# Aplicación Shiny desarrollada para el proyecto:
+#     GIR Filología Digital — Universidad de Valladolid (2026)
+#
+# OBJETIVO
+# ---------------------------------------------------------------------
+# Explorar la distribución geográfica de topónimos españoles mediante
+# búsquedas lingüísticas controladas y visualización cartográfica.
+#
+# La aplicación permite:
+#   - Buscar por coincidencia general, comienzo o final de palabra
+#     (no regex literal: se basa en límites léxicos \b).
+#   - Visualizar los resultados sobre un mapa interactivo.
+#   - Colorear por comunidad autónoma o provincia.
+#   - Filtrar por recorte geográfico peninsular.
+#   - Subir tablas propias para depurar falsos positivos.
+#   - Descargar:
+#        • mapa
+#        • resultados
+#        • tabla completa filtrada
+#
+# FILOSOFÍA DE DISEÑO
+# ---------------------------------------------------------------------
+# La app NO modifica datos internamente.
+# Toda normalización (ej. comunidad autónoma) se realiza previamente
+# en scripts de preparación para mantener reproducibilidad filológica.
+#
+# El usuario puede trabajar en dos modos:
+#   1) Base general (repositorio GitHub)
+#   2) Tabla propia corregida manualmente
+#
+# Esto permite ciclos iterativos:
+#   búsqueda → revisión → depuración → recarga → validación
+#
+# DECISIONES IMPORTANTES
+# ---------------------------------------------------------------------
+# - TSV en lugar de CSV (problemas con comas en corpus históricos)
+# - Búsquedas léxicas con límites de palabra (no regex académico)
+# - Recorte geográfico para excluir Canarias
+# - Caché local para no descargar datos continuamente
+# - Exportación para trabajo offline
+#
+# ARCHIVOS RELACIONADOS
+# ---------------------------------------------------------------------
+# preparar_toponimos.R  → normaliza dataset base
+#
+# =====================================================================
+
+
 library(shiny)
 library(bslib)
 library(shinycssloaders)
@@ -9,6 +59,7 @@ library(stringi)
 library(htmlwidgets)
 library(webshot2)
 library(htmltools)
+library(viridis) # para paleta adaptativa
 
 options(scipen = 999)
 
@@ -68,19 +119,24 @@ read_and_prepare <- function(path, sep = "\t", header = TRUE, clip_bbox = TRUE) 
     fileEncoding = "UTF-8"
   )
   
-  # Requerimos lon/lat y columnas mínimas
-  # Requerimos solo las columnas realmente necesarias
+  # Requerimos solo las columnas realmente necesarias (ya no 'idioma')
   needed <- c("tipo", "toponimo", "lon", "lat", "provincia")
   miss <- setdiff(needed, names(df))
   if (length(miss) > 0) {
     stop("Faltan columnas esperadas en la tabla: ", paste(miss, collapse = ", "))
   }
   
+  # Si no existe 'comunidad', la dejamos como NA (se puede tener si usas el script externo)
+  if (!"comunidad" %in% names(df)) {
+    df$comunidad <- NA_character_
+  }
   
   df <- df %>%
     mutate(
       lon = parse_num(lon),
-      lat = parse_num(lat)
+      lat = parse_num(lat),
+      # homogenizar comunidad como character sin tildes? dejamos el texto tal cual (visual en leyenda)
+      comunidad = ifelse(is.na(comunidad) | comunidad == "", NA_character_, as.character(comunidad))
     ) %>%
     filter(!is.na(lon), !is.na(lat))
   
@@ -124,7 +180,7 @@ ui <- page_fluid(
   
   layout_sidebar(
     sidebar = sidebar(
-      width = 340,
+      width = 360,
       
       h4("Datos"),
       radioButtons("data_source", "Usar datos de:",
@@ -137,11 +193,10 @@ ui <- page_fluid(
       actionButton("clear_saved", "Borrar tabla guardada", icon = icon("trash")),
       tags$div(class = "small-note", "Guardar permite iterar: exportas, corriges y vuelves a usar"),
       
-      # -- CONTADOR dinámico --
       tags$hr(),
-      div(class = "counters",
-          textOutput("counters")
-      ),
+      
+      # contador dinámico
+      div(class = "counters", textOutput("counters")),
       
       tags$hr(),
       
@@ -159,6 +214,8 @@ ui <- page_fluid(
       tags$hr(),
       
       h4("Mapa"),
+      # NUEVO control: colorear por
+      selectInput("color_by", "Colorear por:", choices = c("Ninguno" = "none", "Comunidad" = "comunidad", "Provincia" = "provincia"), selected = "none"),
       checkboxInput("cluster", "Agrupar puntos", TRUE),
       sliderInput("max_points", "Máx. puntos", min = 100, max = 10000, value = 5000, step = 100),
       
@@ -203,7 +260,7 @@ ui <- page_fluid(
               h5("1) Fuentes de datos"),
               tags$ul(
                 tags$li(strong("Base remota:"), " la tabla por defecto (no necesitas subir nada)."),
-                tags$li(strong("Subir mi tabla:"), " carga tu propio TSV (debe contener al menos las columnas: tipo, toponimo, idioma, lon, lat, provincia)."),
+                tags$li(strong("Subir mi tabla:"), " carga tu propio TSV (debe contener al menos las columnas: tipo, toponimo, lon, lat, provincia)."),
                 tags$li(strong("Mi tabla guardada:"), " si guardaste un resultado filtrado con el botón “Guardar resultado como mi tabla”, puedes seleccionarlo aquí.")
               ),
               
@@ -377,22 +434,98 @@ server <- function(input, output, session){
   # ---- RENDER MAP ----
   output$map <- renderLeaflet({
     d <- map_data()
+    
+    # mapa base
     m <- leaflet() %>% addProviderTiles(providers$CartoDB.Positron)
     
-    if (nrow(d) == 0) return(m %>% setView(-3.7, 40.4, 6))
-    
-    popup <- paste0("<b>", htmlEscape(d$toponimo), "</b><br>", htmlEscape(d$provincia))
-    
-    if (isTRUE(input$cluster)) {
-      m <- m %>% addCircleMarkers(
-        lng = d$lon, lat = d$lat, radius = 5, stroke = FALSE, fillOpacity = .8,
-        popup = popup, clusterOptions = markerClusterOptions()
-      )
-    } else {
-      m <- m %>% addCircleMarkers(lng = d$lon, lat = d$lat, radius = 5, stroke = FALSE, fillOpacity = .8, popup = popup)
+    # si no hay puntos, devolvemos mapa vacío con vista por defecto
+    if (nrow(d) == 0) {
+      return(m %>% setView(-3.7, 40.4, 6))
     }
     
-    m %>% fitBounds(min(d$lon), min(d$lat), max(d$lon), max(d$lat))
+    # preparar popup
+    popup <- paste0("<b>", htmlEscape(d$toponimo), "</b><br>", htmlEscape(d$provincia))
+    
+    # PREPARAR COLORES (solo si user eligió colorear por comunidad o provincia)
+    pal <- NULL
+    legend_values <- NULL
+    color_vector <- NULL
+    
+    color_choice <- input$color_by
+    if (!is.null(color_choice) && color_choice %in% c("comunidad", "provincia")) {
+      
+      if (color_choice == "comunidad") {
+        vec <- ifelse(is.na(d$comunidad) | d$comunidad == "", "Desconocido", as.character(d$comunidad))
+        legend_title <- "Comunidad"
+      } else {
+        vec <- ifelse(is.na(d$provincia) | d$provincia == "", "Desconocido", as.character(d$provincia))
+        legend_title <- "Provincia"
+      }
+      
+      uniq <- sort(unique(vec))
+      if (length(uniq) > 0) {
+        # generar paleta con 'viridis' si está, si no fallback
+        if (requireNamespace("viridis", quietly = TRUE)) {
+          cols <- viridis::viridis(length(uniq))
+        } else {
+          cols <- colorRampPalette(c("#2c7bb6","#abd9e9","#ffffbf","#fdae61","#d7191c"))(length(uniq))
+        }
+        pal <- colorFactor(palette = cols, domain = uniq, na.color = "#808080")
+        legend_values <- uniq
+        color_vector <- pal(vec)
+      }
+    }
+    
+    # AÑADIR MARCADORES (clusters o no), aplicando color si hay pal
+    if (isTRUE(input$cluster)) {
+      if (!is.null(pal)) {
+        m <- m %>% addCircleMarkers(
+          lng = d$lon, lat = d$lat,
+          radius = 6, stroke = FALSE, fillOpacity = .9,
+          popup = popup,
+          color = color_vector,
+          clusterOptions = markerClusterOptions()
+        )
+      } else {
+        m <- m %>% addCircleMarkers(
+          lng = d$lon, lat = d$lat,
+          radius = 6, stroke = FALSE, fillOpacity = .9,
+          popup = popup,
+          clusterOptions = markerClusterOptions()
+        )
+      }
+    } else {
+      if (!is.null(pal)) {
+        m <- m %>% addCircleMarkers(
+          lng = d$lon, lat = d$lat,
+          radius = 6, stroke = FALSE, fillOpacity = .9,
+          popup = popup,
+          fillColor = color_vector,
+          color = color_vector
+        )
+      } else {
+        m <- m %>% addCircleMarkers(
+          lng = d$lon, lat = d$lat,
+          radius = 6, stroke = FALSE, fillOpacity = .9,
+          popup = popup
+        )
+      }
+    }
+    
+    # ajustar vista al bounding box de los puntos (con NA seguros)
+    m <- m %>% fitBounds(min(d$lon, na.rm = TRUE), min(d$lat, na.rm = TRUE),
+                         max(d$lon, na.rm = TRUE), max(d$lat, na.rm = TRUE))
+    
+    # AÑADIR LEYENDA SOLO SI TENEMOS pal y valores para ella
+    if (!is.null(pal) && !is.null(legend_values) && length(legend_values) > 0) {
+      m <- m %>% addLegend(position = "bottomright",
+                           pal = pal,
+                           values = legend_values,
+                           title = ifelse(color_choice == "comunidad", "Comunidad", "Provincia"),
+                           opacity = 1)
+    }
+    
+    m
   })
   
   # ---- CONTADORES DINÁMICOS ----
@@ -428,7 +561,7 @@ server <- function(input, output, session){
     saved_df(remaining)
     showNotification(paste0("Se eliminaron ", length(sel), " fila(s) y se guardó el resultado como 'Mi tabla'."), type = "message")
     
-    # opcional: cambiar la fuente activa a 'saved' automáticamente
+    # cambiar la fuente activa a 'saved' automáticamente
     updateRadioButtons(session, "data_source", selected = "saved")
   })
   
